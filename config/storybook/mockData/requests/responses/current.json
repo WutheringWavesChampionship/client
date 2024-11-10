@@ -1,0 +1,2694 @@
+{
+  "success": true,
+  "data": {
+    "id": 9,
+    "is_application": 0,
+    "theme_id": 3,
+    "title": null,
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "files_ids": "a:0:{}",
+    "contact_id": 388,
+    "status_id": 2,
+    "user_id": null,
+    "data_add": 1723027597,
+    "contact_phone": "+37544-733-66-60",
+    "contact_fio": "Stanislau Melnik",
+    "comment": "",
+    "sync_1c": null,
+    "ticket_number": null,
+    "processor_id": 396,
+    "time_processing": null,
+    "address": null,
+    "data_update": 1723029058,
+    "phone_number": null,
+    "files": [],
+    "theme": {
+      "id": 3,
+      "name": "Лифты"
+    },
+    "status": {
+      "id": 2,
+      "name": "Передана в работу",
+      "id_1c": "3"
+    },
+    "contact": {
+      "id": 388,
+      "name": "Stanislau Melnik",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "avatar": null,
+      "job_title": "front",
+      "work_phone": null,
+      "id_1c": null,
+      "lang": null,
+      "address": ", , , ",
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": {
+        "id": 8,
+        "name": "IT"
+      }
+    },
+    "contact_address": ", , , ",
+    "processor": {
+      "id": 396,
+      "name": "Валерия Закревская",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "avatar": null,
+      "job_title": "Designer",
+      "work_phone": null,
+      "id_1c": null,
+      "lang": null,
+      "address": ", , , ",
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": {
+        "id": 8,
+        "name": "IT"
+      }
+    },
+    "history": [
+      {
+        "id": 34,
+        "request_id": 9,
+        "user_id": 393,
+        "status_id": 2,
+        "date_add": 1723029058,
+        "comment": "",
+        "request_state": false,
+        "user": {
+          "id": 393,
+          "name": "axk_manager",
+          "status": {
+            "id": 2,
+            "name": "Подтвержден (активен)"
+          },
+          "avatar": null,
+          "job_title": "manager",
+          "work_phone": null,
+          "id_1c": null,
+          "lang": null,
+          "address": ", , , ",
+          "group": {
+            "id": 10,
+            "name": "Сотрудник"
+          },
+          "parent": {
+            "id": 1,
+            "name": "Админ системы",
+            "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+            "group": {
+              "id": 1,
+              "name": "Администратор системы"
+            },
+            "parent": null
+          },
+          "childs": [],
+          "department": {
+            "id": 1,
+            "name": "Технический отдел"
+          }
+        },
+        "status": {
+          "id": 2,
+          "name": "Передана в работу",
+          "id_1c": "3"
+        },
+        "request": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 2,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723029058,
+          "phone_number": null
+        }
+      },
+      {
+        "id": 33,
+        "request_id": 9,
+        "user_id": 393,
+        "status_id": 5,
+        "date_add": 1723029042,
+        "comment": "",
+        "request_state": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 5,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723029042,
+          "phone_number": null,
+          "files": [],
+          "theme": {
+            "id": 3,
+            "name": "Лифты"
+          },
+          "status": {
+            "id": 5,
+            "name": "Завершена",
+            "id_1c": "6"
+          },
+          "contact": {
+            "id": 388,
+            "name": "Stanislau Melnik",
+            "status": {
+              "id": 2,
+              "name": "Подтвержден (активен)"
+            },
+            "avatar": null,
+            "job_title": "front",
+            "work_phone": null,
+            "id_1c": null,
+            "lang": null,
+            "address": ", , , ",
+            "group": {
+              "id": 10,
+              "name": "Сотрудник"
+            },
+            "parent": {
+              "id": 1,
+              "name": "Админ системы",
+              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+              "group": {
+                "id": 1,
+                "name": "Администратор системы"
+              },
+              "parent": null
+            },
+            "childs": [],
+            "department": {
+              "id": 8,
+              "name": "IT"
+            }
+          },
+          "contact_address": ", , , ",
+          "processor": {
+            "id": 396,
+            "name": "Валерия Закревская",
+            "status": {
+              "id": 2,
+              "name": "Подтвержден (активен)"
+            },
+            "avatar": null,
+            "job_title": "Designer",
+            "work_phone": null,
+            "id_1c": null,
+            "lang": null,
+            "address": ", , , ",
+            "group": {
+              "id": 10,
+              "name": "Сотрудник"
+            },
+            "parent": {
+              "id": 1,
+              "name": "Админ системы",
+              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+              "group": {
+                "id": 1,
+                "name": "Администратор системы"
+              },
+              "parent": null
+            },
+            "childs": [],
+            "department": {
+              "id": 8,
+              "name": "IT"
+            }
+          },
+          "history": [
+            {
+              "id": 32,
+              "request_id": 9,
+              "user_id": 393,
+              "status_id": 2,
+              "date_add": 1723029028,
+              "comment": "",
+              "request_state": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 2,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029028,
+                "phone_number": null,
+                "files": [],
+                "theme": {
+                  "id": 3,
+                  "name": "Лифты"
+                },
+                "status": {
+                  "id": 2,
+                  "name": "Передана в работу",
+                  "id_1c": "3"
+                },
+                "contact": {
+                  "id": 388,
+                  "name": "Stanislau Melnik",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "front",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "contact_address": ", , , ",
+                "processor": {
+                  "id": 396,
+                  "name": "Валерия Закревская",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "Designer",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "history": [
+                  {
+                    "id": 31,
+                    "request_id": 9,
+                    "user_id": 393,
+                    "status_id": 5,
+                    "date_add": 1723029021,
+                    "comment": "",
+                    "request_state": {
+                      "id": 9,
+                      "is_application": 0,
+                      "theme_id": 3,
+                      "title": null,
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      "files_ids": "a:0:{}",
+                      "contact_id": 388,
+                      "status_id": 5,
+                      "user_id": null,
+                      "data_add": 1723027597,
+                      "contact_phone": "+37544-733-66-60",
+                      "contact_fio": "Stanislau Melnik",
+                      "comment": "",
+                      "sync_1c": null,
+                      "ticket_number": null,
+                      "processor_id": 396,
+                      "time_processing": null,
+                      "address": null,
+                      "data_update": 1723029021,
+                      "phone_number": null,
+                      "files": [],
+                      "theme": {
+                        "id": 3,
+                        "name": "Лифты"
+                      },
+                      "status": {
+                        "id": 5,
+                        "name": "Завершена",
+                        "id_1c": "6"
+                      },
+                      "contact": {
+                        "id": 388,
+                        "name": "Stanislau Melnik",
+                        "status": {
+                          "id": 2,
+                          "name": "Подтвержден (активен)"
+                        },
+                        "avatar": null,
+                        "job_title": "front",
+                        "work_phone": null,
+                        "id_1c": null,
+                        "lang": null,
+                        "address": ", , , ",
+                        "group": {
+                          "id": 10,
+                          "name": "Сотрудник"
+                        },
+                        "parent": {
+                          "id": 1,
+                          "name": "Админ системы",
+                          "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                          "group": {
+                            "id": 1,
+                            "name": "Администратор системы"
+                          },
+                          "parent": null
+                        },
+                        "childs": [],
+                        "department": {
+                          "id": 8,
+                          "name": "IT"
+                        }
+                      },
+                      "contact_address": ", , , ",
+                      "processor": {
+                        "id": 396,
+                        "name": "Валерия Закревская",
+                        "status": {
+                          "id": 2,
+                          "name": "Подтвержден (активен)"
+                        },
+                        "avatar": null,
+                        "job_title": "Designer",
+                        "work_phone": null,
+                        "id_1c": null,
+                        "lang": null,
+                        "address": ", , , ",
+                        "group": {
+                          "id": 10,
+                          "name": "Сотрудник"
+                        },
+                        "parent": {
+                          "id": 1,
+                          "name": "Админ системы",
+                          "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                          "group": {
+                            "id": 1,
+                            "name": "Администратор системы"
+                          },
+                          "parent": null
+                        },
+                        "childs": [],
+                        "department": {
+                          "id": 8,
+                          "name": "IT"
+                        }
+                      },
+                      "history": [
+                        {
+                          "id": 20,
+                          "request_id": 9,
+                          "user_id": 388,
+                          "status_id": 2,
+                          "date_add": 1723027597,
+                          "comment": "",
+                          "request_state": {
+                            "id": 9,
+                            "is_application": 0,
+                            "theme_id": 3,
+                            "title": null,
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                            "files_ids": "a:0:{}",
+                            "contact_id": 388,
+                            "status_id": 2,
+                            "user_id": null,
+                            "data_add": 1723027597,
+                            "contact_phone": "+37544-733-66-60",
+                            "contact_fio": "Stanislau Melnik",
+                            "comment": "",
+                            "sync_1c": null,
+                            "ticket_number": null,
+                            "processor_id": 396,
+                            "time_processing": null,
+                            "address": null,
+                            "data_update": 1723027597,
+                            "files": [],
+                            "theme": {
+                              "id": 3,
+                              "name": "Лифты"
+                            },
+                            "status": {
+                              "id": 2,
+                              "name": "Передана в работу",
+                              "id_1c": "3"
+                            },
+                            "contact": {
+                              "id": 388,
+                              "name": "Stanislau Melnik",
+                              "status": {
+                                "id": 2,
+                                "name": "Подтвержден (активен)"
+                              },
+                              "avatar": null,
+                              "job_title": "front",
+                              "work_phone": null,
+                              "id_1c": null,
+                              "lang": null,
+                              "address": ", , , ",
+                              "group": {
+                                "id": 10,
+                                "name": "Сотрудник"
+                              },
+                              "parent": {
+                                "id": 1,
+                                "name": "Админ системы",
+                                "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                                "group": {
+                                  "id": 1,
+                                  "name": "Администратор системы"
+                                },
+                                "parent": null
+                              },
+                              "childs": [],
+                              "department": {
+                                "id": 8,
+                                "name": "IT"
+                              }
+                            },
+                            "contact_address": ", , , ",
+                            "processor": {
+                              "id": 396,
+                              "name": "Валерия Закревская",
+                              "status": {
+                                "id": 2,
+                                "name": "Подтвержден (активен)"
+                              },
+                              "avatar": null,
+                              "job_title": "Designer",
+                              "work_phone": null,
+                              "id_1c": null,
+                              "lang": null,
+                              "address": ", , , ",
+                              "group": {
+                                "id": 10,
+                                "name": "Сотрудник"
+                              },
+                              "parent": {
+                                "id": 1,
+                                "name": "Админ системы",
+                                "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                                "group": {
+                                  "id": 1,
+                                  "name": "Администратор системы"
+                                },
+                                "parent": null
+                              },
+                              "childs": [],
+                              "department": {
+                                "id": 8,
+                                "name": "IT"
+                              }
+                            },
+                            "history": []
+                          },
+                          "user": {
+                            "id": 388,
+                            "name": "Stanislau Melnik",
+                            "status": {
+                              "id": 2,
+                              "name": "Подтвержден (активен)"
+                            },
+                            "avatar": null,
+                            "job_title": "front",
+                            "work_phone": null,
+                            "id_1c": null,
+                            "lang": null,
+                            "address": ", , , ",
+                            "group": {
+                              "id": 10,
+                              "name": "Сотрудник"
+                            },
+                            "parent": {
+                              "id": 1,
+                              "name": "Админ системы",
+                              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                              "group": {
+                                "id": 1,
+                                "name": "Администратор системы"
+                              },
+                              "parent": null
+                            },
+                            "childs": [],
+                            "department": {
+                              "id": 8,
+                              "name": "IT"
+                            }
+                          },
+                          "status": {
+                            "id": 2,
+                            "name": "Передана в работу",
+                            "id_1c": "3"
+                          },
+                          "request": {
+                            "id": 9,
+                            "is_application": 0,
+                            "theme_id": 3,
+                            "title": null,
+                            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                            "files_ids": "a:0:{}",
+                            "contact_id": 388,
+                            "status_id": 5,
+                            "user_id": null,
+                            "data_add": 1723027597,
+                            "contact_phone": "+37544-733-66-60",
+                            "contact_fio": "Stanislau Melnik",
+                            "comment": "",
+                            "sync_1c": null,
+                            "ticket_number": null,
+                            "processor_id": 396,
+                            "time_processing": null,
+                            "address": null,
+                            "data_update": 1723029021,
+                            "phone_number": null
+                          }
+                        }
+                      ]
+                    },
+                    "user": {
+                      "id": 393,
+                      "name": "axk_manager",
+                      "status": {
+                        "id": 2,
+                        "name": "Подтвержден (активен)"
+                      },
+                      "avatar": null,
+                      "job_title": "manager",
+                      "work_phone": null,
+                      "id_1c": null,
+                      "lang": null,
+                      "address": ", , , ",
+                      "group": {
+                        "id": 10,
+                        "name": "Сотрудник"
+                      },
+                      "parent": {
+                        "id": 1,
+                        "name": "Админ системы",
+                        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                        "group": {
+                          "id": 1,
+                          "name": "Администратор системы"
+                        },
+                        "parent": null
+                      },
+                      "childs": [],
+                      "department": {
+                        "id": 1,
+                        "name": "Технический отдел"
+                      }
+                    },
+                    "status": {
+                      "id": 5,
+                      "name": "Завершена",
+                      "id_1c": "6"
+                    },
+                    "request": {
+                      "id": 9,
+                      "is_application": 0,
+                      "theme_id": 3,
+                      "title": null,
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      "files_ids": "a:0:{}",
+                      "contact_id": 388,
+                      "status_id": 2,
+                      "user_id": null,
+                      "data_add": 1723027597,
+                      "contact_phone": "+37544-733-66-60",
+                      "contact_fio": "Stanislau Melnik",
+                      "comment": "",
+                      "sync_1c": null,
+                      "ticket_number": null,
+                      "processor_id": 396,
+                      "time_processing": null,
+                      "address": null,
+                      "data_update": 1723029028,
+                      "phone_number": null
+                    }
+                  },
+                  {
+                    "id": 20,
+                    "request_id": 9,
+                    "user_id": 388,
+                    "status_id": 2,
+                    "date_add": 1723027597,
+                    "comment": "",
+                    "request_state": {
+                      "id": 9,
+                      "is_application": 0,
+                      "theme_id": 3,
+                      "title": null,
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      "files_ids": "a:0:{}",
+                      "contact_id": 388,
+                      "status_id": 2,
+                      "user_id": null,
+                      "data_add": 1723027597,
+                      "contact_phone": "+37544-733-66-60",
+                      "contact_fio": "Stanislau Melnik",
+                      "comment": "",
+                      "sync_1c": null,
+                      "ticket_number": null,
+                      "processor_id": 396,
+                      "time_processing": null,
+                      "address": null,
+                      "data_update": 1723027597,
+                      "files": [],
+                      "theme": {
+                        "id": 3,
+                        "name": "Лифты"
+                      },
+                      "status": {
+                        "id": 2,
+                        "name": "Передана в работу",
+                        "id_1c": "3"
+                      },
+                      "contact": {
+                        "id": 388,
+                        "name": "Stanislau Melnik",
+                        "status": {
+                          "id": 2,
+                          "name": "Подтвержден (активен)"
+                        },
+                        "avatar": null,
+                        "job_title": "front",
+                        "work_phone": null,
+                        "id_1c": null,
+                        "lang": null,
+                        "address": ", , , ",
+                        "group": {
+                          "id": 10,
+                          "name": "Сотрудник"
+                        },
+                        "parent": {
+                          "id": 1,
+                          "name": "Админ системы",
+                          "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                          "group": {
+                            "id": 1,
+                            "name": "Администратор системы"
+                          },
+                          "parent": null
+                        },
+                        "childs": [],
+                        "department": {
+                          "id": 8,
+                          "name": "IT"
+                        }
+                      },
+                      "contact_address": ", , , ",
+                      "processor": {
+                        "id": 396,
+                        "name": "Валерия Закревская",
+                        "status": {
+                          "id": 2,
+                          "name": "Подтвержден (активен)"
+                        },
+                        "avatar": null,
+                        "job_title": "Designer",
+                        "work_phone": null,
+                        "id_1c": null,
+                        "lang": null,
+                        "address": ", , , ",
+                        "group": {
+                          "id": 10,
+                          "name": "Сотрудник"
+                        },
+                        "parent": {
+                          "id": 1,
+                          "name": "Админ системы",
+                          "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                          "group": {
+                            "id": 1,
+                            "name": "Администратор системы"
+                          },
+                          "parent": null
+                        },
+                        "childs": [],
+                        "department": {
+                          "id": 8,
+                          "name": "IT"
+                        }
+                      },
+                      "history": []
+                    },
+                    "user": {
+                      "id": 388,
+                      "name": "Stanislau Melnik",
+                      "status": {
+                        "id": 2,
+                        "name": "Подтвержден (активен)"
+                      },
+                      "avatar": null,
+                      "job_title": "front",
+                      "work_phone": null,
+                      "id_1c": null,
+                      "lang": null,
+                      "address": ", , , ",
+                      "group": {
+                        "id": 10,
+                        "name": "Сотрудник"
+                      },
+                      "parent": {
+                        "id": 1,
+                        "name": "Админ системы",
+                        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                        "group": {
+                          "id": 1,
+                          "name": "Администратор системы"
+                        },
+                        "parent": null
+                      },
+                      "childs": [],
+                      "department": {
+                        "id": 8,
+                        "name": "IT"
+                      }
+                    },
+                    "status": {
+                      "id": 2,
+                      "name": "Передана в работу",
+                      "id_1c": "3"
+                    },
+                    "request": {
+                      "id": 9,
+                      "is_application": 0,
+                      "theme_id": 3,
+                      "title": null,
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      "files_ids": "a:0:{}",
+                      "contact_id": 388,
+                      "status_id": 2,
+                      "user_id": null,
+                      "data_add": 1723027597,
+                      "contact_phone": "+37544-733-66-60",
+                      "contact_fio": "Stanislau Melnik",
+                      "comment": "",
+                      "sync_1c": null,
+                      "ticket_number": null,
+                      "processor_id": 396,
+                      "time_processing": null,
+                      "address": null,
+                      "data_update": 1723029028,
+                      "phone_number": null
+                    }
+                  }
+                ]
+              },
+              "user": {
+                "id": 393,
+                "name": "axk_manager",
+                "status": {
+                  "id": 2,
+                  "name": "Подтвержден (активен)"
+                },
+                "avatar": null,
+                "job_title": "manager",
+                "work_phone": null,
+                "id_1c": null,
+                "lang": null,
+                "address": ", , , ",
+                "group": {
+                  "id": 10,
+                  "name": "Сотрудник"
+                },
+                "parent": {
+                  "id": 1,
+                  "name": "Админ системы",
+                  "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                  "group": {
+                    "id": 1,
+                    "name": "Администратор системы"
+                  },
+                  "parent": null
+                },
+                "childs": [],
+                "department": {
+                  "id": 1,
+                  "name": "Технический отдел"
+                }
+              },
+              "status": {
+                "id": 2,
+                "name": "Передана в работу",
+                "id_1c": "3"
+              },
+              "request": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 5,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029042,
+                "phone_number": null
+              }
+            },
+            {
+              "id": 31,
+              "request_id": 9,
+              "user_id": 393,
+              "status_id": 5,
+              "date_add": 1723029021,
+              "comment": "",
+              "request_state": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 5,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029021,
+                "phone_number": null,
+                "files": [],
+                "theme": {
+                  "id": 3,
+                  "name": "Лифты"
+                },
+                "status": {
+                  "id": 5,
+                  "name": "Завершена",
+                  "id_1c": "6"
+                },
+                "contact": {
+                  "id": 388,
+                  "name": "Stanislau Melnik",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "front",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "contact_address": ", , , ",
+                "processor": {
+                  "id": 396,
+                  "name": "Валерия Закревская",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "Designer",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "history": [
+                  {
+                    "id": 20,
+                    "request_id": 9,
+                    "user_id": 388,
+                    "status_id": 2,
+                    "date_add": 1723027597,
+                    "comment": "",
+                    "request_state": {
+                      "id": 9,
+                      "is_application": 0,
+                      "theme_id": 3,
+                      "title": null,
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      "files_ids": "a:0:{}",
+                      "contact_id": 388,
+                      "status_id": 2,
+                      "user_id": null,
+                      "data_add": 1723027597,
+                      "contact_phone": "+37544-733-66-60",
+                      "contact_fio": "Stanislau Melnik",
+                      "comment": "",
+                      "sync_1c": null,
+                      "ticket_number": null,
+                      "processor_id": 396,
+                      "time_processing": null,
+                      "address": null,
+                      "data_update": 1723027597,
+                      "files": [],
+                      "theme": {
+                        "id": 3,
+                        "name": "Лифты"
+                      },
+                      "status": {
+                        "id": 2,
+                        "name": "Передана в работу",
+                        "id_1c": "3"
+                      },
+                      "contact": {
+                        "id": 388,
+                        "name": "Stanislau Melnik",
+                        "status": {
+                          "id": 2,
+                          "name": "Подтвержден (активен)"
+                        },
+                        "avatar": null,
+                        "job_title": "front",
+                        "work_phone": null,
+                        "id_1c": null,
+                        "lang": null,
+                        "address": ", , , ",
+                        "group": {
+                          "id": 10,
+                          "name": "Сотрудник"
+                        },
+                        "parent": {
+                          "id": 1,
+                          "name": "Админ системы",
+                          "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                          "group": {
+                            "id": 1,
+                            "name": "Администратор системы"
+                          },
+                          "parent": null
+                        },
+                        "childs": [],
+                        "department": {
+                          "id": 8,
+                          "name": "IT"
+                        }
+                      },
+                      "contact_address": ", , , ",
+                      "processor": {
+                        "id": 396,
+                        "name": "Валерия Закревская",
+                        "status": {
+                          "id": 2,
+                          "name": "Подтвержден (активен)"
+                        },
+                        "avatar": null,
+                        "job_title": "Designer",
+                        "work_phone": null,
+                        "id_1c": null,
+                        "lang": null,
+                        "address": ", , , ",
+                        "group": {
+                          "id": 10,
+                          "name": "Сотрудник"
+                        },
+                        "parent": {
+                          "id": 1,
+                          "name": "Админ системы",
+                          "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                          "group": {
+                            "id": 1,
+                            "name": "Администратор системы"
+                          },
+                          "parent": null
+                        },
+                        "childs": [],
+                        "department": {
+                          "id": 8,
+                          "name": "IT"
+                        }
+                      },
+                      "history": []
+                    },
+                    "user": {
+                      "id": 388,
+                      "name": "Stanislau Melnik",
+                      "status": {
+                        "id": 2,
+                        "name": "Подтвержден (активен)"
+                      },
+                      "avatar": null,
+                      "job_title": "front",
+                      "work_phone": null,
+                      "id_1c": null,
+                      "lang": null,
+                      "address": ", , , ",
+                      "group": {
+                        "id": 10,
+                        "name": "Сотрудник"
+                      },
+                      "parent": {
+                        "id": 1,
+                        "name": "Админ системы",
+                        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                        "group": {
+                          "id": 1,
+                          "name": "Администратор системы"
+                        },
+                        "parent": null
+                      },
+                      "childs": [],
+                      "department": {
+                        "id": 8,
+                        "name": "IT"
+                      }
+                    },
+                    "status": {
+                      "id": 2,
+                      "name": "Передана в работу",
+                      "id_1c": "3"
+                    },
+                    "request": {
+                      "id": 9,
+                      "is_application": 0,
+                      "theme_id": 3,
+                      "title": null,
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      "files_ids": "a:0:{}",
+                      "contact_id": 388,
+                      "status_id": 5,
+                      "user_id": null,
+                      "data_add": 1723027597,
+                      "contact_phone": "+37544-733-66-60",
+                      "contact_fio": "Stanislau Melnik",
+                      "comment": "",
+                      "sync_1c": null,
+                      "ticket_number": null,
+                      "processor_id": 396,
+                      "time_processing": null,
+                      "address": null,
+                      "data_update": 1723029021,
+                      "phone_number": null
+                    }
+                  }
+                ]
+              },
+              "user": {
+                "id": 393,
+                "name": "axk_manager",
+                "status": {
+                  "id": 2,
+                  "name": "Подтвержден (активен)"
+                },
+                "avatar": null,
+                "job_title": "manager",
+                "work_phone": null,
+                "id_1c": null,
+                "lang": null,
+                "address": ", , , ",
+                "group": {
+                  "id": 10,
+                  "name": "Сотрудник"
+                },
+                "parent": {
+                  "id": 1,
+                  "name": "Админ системы",
+                  "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                  "group": {
+                    "id": 1,
+                    "name": "Администратор системы"
+                  },
+                  "parent": null
+                },
+                "childs": [],
+                "department": {
+                  "id": 1,
+                  "name": "Технический отдел"
+                }
+              },
+              "status": {
+                "id": 5,
+                "name": "Завершена",
+                "id_1c": "6"
+              },
+              "request": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 5,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029042,
+                "phone_number": null
+              }
+            },
+            {
+              "id": 20,
+              "request_id": 9,
+              "user_id": 388,
+              "status_id": 2,
+              "date_add": 1723027597,
+              "comment": "",
+              "request_state": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 2,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723027597,
+                "files": [],
+                "theme": {
+                  "id": 3,
+                  "name": "Лифты"
+                },
+                "status": {
+                  "id": 2,
+                  "name": "Передана в работу",
+                  "id_1c": "3"
+                },
+                "contact": {
+                  "id": 388,
+                  "name": "Stanislau Melnik",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "front",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "contact_address": ", , , ",
+                "processor": {
+                  "id": 396,
+                  "name": "Валерия Закревская",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "Designer",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "history": []
+              },
+              "user": {
+                "id": 388,
+                "name": "Stanislau Melnik",
+                "status": {
+                  "id": 2,
+                  "name": "Подтвержден (активен)"
+                },
+                "avatar": null,
+                "job_title": "front",
+                "work_phone": null,
+                "id_1c": null,
+                "lang": null,
+                "address": ", , , ",
+                "group": {
+                  "id": 10,
+                  "name": "Сотрудник"
+                },
+                "parent": {
+                  "id": 1,
+                  "name": "Админ системы",
+                  "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                  "group": {
+                    "id": 1,
+                    "name": "Администратор системы"
+                  },
+                  "parent": null
+                },
+                "childs": [],
+                "department": {
+                  "id": 8,
+                  "name": "IT"
+                }
+              },
+              "status": {
+                "id": 2,
+                "name": "Передана в работу",
+                "id_1c": "3"
+              },
+              "request": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 5,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029042,
+                "phone_number": null
+              }
+            }
+          ]
+        },
+        "user": {
+          "id": 393,
+          "name": "axk_manager",
+          "status": {
+            "id": 2,
+            "name": "Подтвержден (активен)"
+          },
+          "avatar": null,
+          "job_title": "manager",
+          "work_phone": null,
+          "id_1c": null,
+          "lang": null,
+          "address": ", , , ",
+          "group": {
+            "id": 10,
+            "name": "Сотрудник"
+          },
+          "parent": {
+            "id": 1,
+            "name": "Админ системы",
+            "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+            "group": {
+              "id": 1,
+              "name": "Администратор системы"
+            },
+            "parent": null
+          },
+          "childs": [],
+          "department": {
+            "id": 1,
+            "name": "Технический отдел"
+          }
+        },
+        "status": {
+          "id": 5,
+          "name": "Завершена",
+          "id_1c": "6"
+        },
+        "request": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 2,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723029058,
+          "phone_number": null
+        }
+      },
+      {
+        "id": 32,
+        "request_id": 9,
+        "user_id": 393,
+        "status_id": 2,
+        "date_add": 1723029028,
+        "comment": "",
+        "request_state": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 2,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723029028,
+          "phone_number": null,
+          "files": [],
+          "theme": {
+            "id": 3,
+            "name": "Лифты"
+          },
+          "status": {
+            "id": 2,
+            "name": "Передана в работу",
+            "id_1c": "3"
+          },
+          "contact": {
+            "id": 388,
+            "name": "Stanislau Melnik",
+            "status": {
+              "id": 2,
+              "name": "Подтвержден (активен)"
+            },
+            "avatar": null,
+            "job_title": "front",
+            "work_phone": null,
+            "id_1c": null,
+            "lang": null,
+            "address": ", , , ",
+            "group": {
+              "id": 10,
+              "name": "Сотрудник"
+            },
+            "parent": {
+              "id": 1,
+              "name": "Админ системы",
+              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+              "group": {
+                "id": 1,
+                "name": "Администратор системы"
+              },
+              "parent": null
+            },
+            "childs": [],
+            "department": {
+              "id": 8,
+              "name": "IT"
+            }
+          },
+          "contact_address": ", , , ",
+          "processor": {
+            "id": 396,
+            "name": "Валерия Закревская",
+            "status": {
+              "id": 2,
+              "name": "Подтвержден (активен)"
+            },
+            "avatar": null,
+            "job_title": "Designer",
+            "work_phone": null,
+            "id_1c": null,
+            "lang": null,
+            "address": ", , , ",
+            "group": {
+              "id": 10,
+              "name": "Сотрудник"
+            },
+            "parent": {
+              "id": 1,
+              "name": "Админ системы",
+              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+              "group": {
+                "id": 1,
+                "name": "Администратор системы"
+              },
+              "parent": null
+            },
+            "childs": [],
+            "department": {
+              "id": 8,
+              "name": "IT"
+            }
+          },
+          "history": [
+            {
+              "id": 31,
+              "request_id": 9,
+              "user_id": 393,
+              "status_id": 5,
+              "date_add": 1723029021,
+              "comment": "",
+              "request_state": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 5,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029021,
+                "phone_number": null,
+                "files": [],
+                "theme": {
+                  "id": 3,
+                  "name": "Лифты"
+                },
+                "status": {
+                  "id": 5,
+                  "name": "Завершена",
+                  "id_1c": "6"
+                },
+                "contact": {
+                  "id": 388,
+                  "name": "Stanislau Melnik",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "front",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "contact_address": ", , , ",
+                "processor": {
+                  "id": 396,
+                  "name": "Валерия Закревская",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "Designer",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "history": [
+                  {
+                    "id": 20,
+                    "request_id": 9,
+                    "user_id": 388,
+                    "status_id": 2,
+                    "date_add": 1723027597,
+                    "comment": "",
+                    "request_state": {
+                      "id": 9,
+                      "is_application": 0,
+                      "theme_id": 3,
+                      "title": null,
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      "files_ids": "a:0:{}",
+                      "contact_id": 388,
+                      "status_id": 2,
+                      "user_id": null,
+                      "data_add": 1723027597,
+                      "contact_phone": "+37544-733-66-60",
+                      "contact_fio": "Stanislau Melnik",
+                      "comment": "",
+                      "sync_1c": null,
+                      "ticket_number": null,
+                      "processor_id": 396,
+                      "time_processing": null,
+                      "address": null,
+                      "data_update": 1723027597,
+                      "files": [],
+                      "theme": {
+                        "id": 3,
+                        "name": "Лифты"
+                      },
+                      "status": {
+                        "id": 2,
+                        "name": "Передана в работу",
+                        "id_1c": "3"
+                      },
+                      "contact": {
+                        "id": 388,
+                        "name": "Stanislau Melnik",
+                        "status": {
+                          "id": 2,
+                          "name": "Подтвержден (активен)"
+                        },
+                        "avatar": null,
+                        "job_title": "front",
+                        "work_phone": null,
+                        "id_1c": null,
+                        "lang": null,
+                        "address": ", , , ",
+                        "group": {
+                          "id": 10,
+                          "name": "Сотрудник"
+                        },
+                        "parent": {
+                          "id": 1,
+                          "name": "Админ системы",
+                          "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                          "group": {
+                            "id": 1,
+                            "name": "Администратор системы"
+                          },
+                          "parent": null
+                        },
+                        "childs": [],
+                        "department": {
+                          "id": 8,
+                          "name": "IT"
+                        }
+                      },
+                      "contact_address": ", , , ",
+                      "processor": {
+                        "id": 396,
+                        "name": "Валерия Закревская",
+                        "status": {
+                          "id": 2,
+                          "name": "Подтвержден (активен)"
+                        },
+                        "avatar": null,
+                        "job_title": "Designer",
+                        "work_phone": null,
+                        "id_1c": null,
+                        "lang": null,
+                        "address": ", , , ",
+                        "group": {
+                          "id": 10,
+                          "name": "Сотрудник"
+                        },
+                        "parent": {
+                          "id": 1,
+                          "name": "Админ системы",
+                          "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                          "group": {
+                            "id": 1,
+                            "name": "Администратор системы"
+                          },
+                          "parent": null
+                        },
+                        "childs": [],
+                        "department": {
+                          "id": 8,
+                          "name": "IT"
+                        }
+                      },
+                      "history": []
+                    },
+                    "user": {
+                      "id": 388,
+                      "name": "Stanislau Melnik",
+                      "status": {
+                        "id": 2,
+                        "name": "Подтвержден (активен)"
+                      },
+                      "avatar": null,
+                      "job_title": "front",
+                      "work_phone": null,
+                      "id_1c": null,
+                      "lang": null,
+                      "address": ", , , ",
+                      "group": {
+                        "id": 10,
+                        "name": "Сотрудник"
+                      },
+                      "parent": {
+                        "id": 1,
+                        "name": "Админ системы",
+                        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                        "group": {
+                          "id": 1,
+                          "name": "Администратор системы"
+                        },
+                        "parent": null
+                      },
+                      "childs": [],
+                      "department": {
+                        "id": 8,
+                        "name": "IT"
+                      }
+                    },
+                    "status": {
+                      "id": 2,
+                      "name": "Передана в работу",
+                      "id_1c": "3"
+                    },
+                    "request": {
+                      "id": 9,
+                      "is_application": 0,
+                      "theme_id": 3,
+                      "title": null,
+                      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                      "files_ids": "a:0:{}",
+                      "contact_id": 388,
+                      "status_id": 5,
+                      "user_id": null,
+                      "data_add": 1723027597,
+                      "contact_phone": "+37544-733-66-60",
+                      "contact_fio": "Stanislau Melnik",
+                      "comment": "",
+                      "sync_1c": null,
+                      "ticket_number": null,
+                      "processor_id": 396,
+                      "time_processing": null,
+                      "address": null,
+                      "data_update": 1723029021,
+                      "phone_number": null
+                    }
+                  }
+                ]
+              },
+              "user": {
+                "id": 393,
+                "name": "axk_manager",
+                "status": {
+                  "id": 2,
+                  "name": "Подтвержден (активен)"
+                },
+                "avatar": null,
+                "job_title": "manager",
+                "work_phone": null,
+                "id_1c": null,
+                "lang": null,
+                "address": ", , , ",
+                "group": {
+                  "id": 10,
+                  "name": "Сотрудник"
+                },
+                "parent": {
+                  "id": 1,
+                  "name": "Админ системы",
+                  "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                  "group": {
+                    "id": 1,
+                    "name": "Администратор системы"
+                  },
+                  "parent": null
+                },
+                "childs": [],
+                "department": {
+                  "id": 1,
+                  "name": "Технический отдел"
+                }
+              },
+              "status": {
+                "id": 5,
+                "name": "Завершена",
+                "id_1c": "6"
+              },
+              "request": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 2,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029028,
+                "phone_number": null
+              }
+            },
+            {
+              "id": 20,
+              "request_id": 9,
+              "user_id": 388,
+              "status_id": 2,
+              "date_add": 1723027597,
+              "comment": "",
+              "request_state": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 2,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723027597,
+                "files": [],
+                "theme": {
+                  "id": 3,
+                  "name": "Лифты"
+                },
+                "status": {
+                  "id": 2,
+                  "name": "Передана в работу",
+                  "id_1c": "3"
+                },
+                "contact": {
+                  "id": 388,
+                  "name": "Stanislau Melnik",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "front",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "contact_address": ", , , ",
+                "processor": {
+                  "id": 396,
+                  "name": "Валерия Закревская",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "Designer",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "history": []
+              },
+              "user": {
+                "id": 388,
+                "name": "Stanislau Melnik",
+                "status": {
+                  "id": 2,
+                  "name": "Подтвержден (активен)"
+                },
+                "avatar": null,
+                "job_title": "front",
+                "work_phone": null,
+                "id_1c": null,
+                "lang": null,
+                "address": ", , , ",
+                "group": {
+                  "id": 10,
+                  "name": "Сотрудник"
+                },
+                "parent": {
+                  "id": 1,
+                  "name": "Админ системы",
+                  "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                  "group": {
+                    "id": 1,
+                    "name": "Администратор системы"
+                  },
+                  "parent": null
+                },
+                "childs": [],
+                "department": {
+                  "id": 8,
+                  "name": "IT"
+                }
+              },
+              "status": {
+                "id": 2,
+                "name": "Передана в работу",
+                "id_1c": "3"
+              },
+              "request": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 2,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029028,
+                "phone_number": null
+              }
+            }
+          ]
+        },
+        "user": {
+          "id": 393,
+          "name": "axk_manager",
+          "status": {
+            "id": 2,
+            "name": "Подтвержден (активен)"
+          },
+          "avatar": null,
+          "job_title": "manager",
+          "work_phone": null,
+          "id_1c": null,
+          "lang": null,
+          "address": ", , , ",
+          "group": {
+            "id": 10,
+            "name": "Сотрудник"
+          },
+          "parent": {
+            "id": 1,
+            "name": "Админ системы",
+            "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+            "group": {
+              "id": 1,
+              "name": "Администратор системы"
+            },
+            "parent": null
+          },
+          "childs": [],
+          "department": {
+            "id": 1,
+            "name": "Технический отдел"
+          }
+        },
+        "status": {
+          "id": 2,
+          "name": "Передана в работу",
+          "id_1c": "3"
+        },
+        "request": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 2,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723029058,
+          "phone_number": null
+        }
+      },
+      {
+        "id": 31,
+        "request_id": 9,
+        "user_id": 393,
+        "status_id": 5,
+        "date_add": 1723029021,
+        "comment": "",
+        "request_state": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 5,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723029021,
+          "phone_number": null,
+          "files": [],
+          "theme": {
+            "id": 3,
+            "name": "Лифты"
+          },
+          "status": {
+            "id": 5,
+            "name": "Завершена",
+            "id_1c": "6"
+          },
+          "contact": {
+            "id": 388,
+            "name": "Stanislau Melnik",
+            "status": {
+              "id": 2,
+              "name": "Подтвержден (активен)"
+            },
+            "avatar": null,
+            "job_title": "front",
+            "work_phone": null,
+            "id_1c": null,
+            "lang": null,
+            "address": ", , , ",
+            "group": {
+              "id": 10,
+              "name": "Сотрудник"
+            },
+            "parent": {
+              "id": 1,
+              "name": "Админ системы",
+              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+              "group": {
+                "id": 1,
+                "name": "Администратор системы"
+              },
+              "parent": null
+            },
+            "childs": [],
+            "department": {
+              "id": 8,
+              "name": "IT"
+            }
+          },
+          "contact_address": ", , , ",
+          "processor": {
+            "id": 396,
+            "name": "Валерия Закревская",
+            "status": {
+              "id": 2,
+              "name": "Подтвержден (активен)"
+            },
+            "avatar": null,
+            "job_title": "Designer",
+            "work_phone": null,
+            "id_1c": null,
+            "lang": null,
+            "address": ", , , ",
+            "group": {
+              "id": 10,
+              "name": "Сотрудник"
+            },
+            "parent": {
+              "id": 1,
+              "name": "Админ системы",
+              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+              "group": {
+                "id": 1,
+                "name": "Администратор системы"
+              },
+              "parent": null
+            },
+            "childs": [],
+            "department": {
+              "id": 8,
+              "name": "IT"
+            }
+          },
+          "history": [
+            {
+              "id": 20,
+              "request_id": 9,
+              "user_id": 388,
+              "status_id": 2,
+              "date_add": 1723027597,
+              "comment": "",
+              "request_state": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 2,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723027597,
+                "files": [],
+                "theme": {
+                  "id": 3,
+                  "name": "Лифты"
+                },
+                "status": {
+                  "id": 2,
+                  "name": "Передана в работу",
+                  "id_1c": "3"
+                },
+                "contact": {
+                  "id": 388,
+                  "name": "Stanislau Melnik",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "front",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "contact_address": ", , , ",
+                "processor": {
+                  "id": 396,
+                  "name": "Валерия Закревская",
+                  "status": {
+                    "id": 2,
+                    "name": "Подтвержден (активен)"
+                  },
+                  "avatar": null,
+                  "job_title": "Designer",
+                  "work_phone": null,
+                  "id_1c": null,
+                  "lang": null,
+                  "address": ", , , ",
+                  "group": {
+                    "id": 10,
+                    "name": "Сотрудник"
+                  },
+                  "parent": {
+                    "id": 1,
+                    "name": "Админ системы",
+                    "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                    "group": {
+                      "id": 1,
+                      "name": "Администратор системы"
+                    },
+                    "parent": null
+                  },
+                  "childs": [],
+                  "department": {
+                    "id": 8,
+                    "name": "IT"
+                  }
+                },
+                "history": []
+              },
+              "user": {
+                "id": 388,
+                "name": "Stanislau Melnik",
+                "status": {
+                  "id": 2,
+                  "name": "Подтвержден (активен)"
+                },
+                "avatar": null,
+                "job_title": "front",
+                "work_phone": null,
+                "id_1c": null,
+                "lang": null,
+                "address": ", , , ",
+                "group": {
+                  "id": 10,
+                  "name": "Сотрудник"
+                },
+                "parent": {
+                  "id": 1,
+                  "name": "Админ системы",
+                  "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+                  "group": {
+                    "id": 1,
+                    "name": "Администратор системы"
+                  },
+                  "parent": null
+                },
+                "childs": [],
+                "department": {
+                  "id": 8,
+                  "name": "IT"
+                }
+              },
+              "status": {
+                "id": 2,
+                "name": "Передана в работу",
+                "id_1c": "3"
+              },
+              "request": {
+                "id": 9,
+                "is_application": 0,
+                "theme_id": 3,
+                "title": null,
+                "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "files_ids": "a:0:{}",
+                "contact_id": 388,
+                "status_id": 5,
+                "user_id": null,
+                "data_add": 1723027597,
+                "contact_phone": "+37544-733-66-60",
+                "contact_fio": "Stanislau Melnik",
+                "comment": "",
+                "sync_1c": null,
+                "ticket_number": null,
+                "processor_id": 396,
+                "time_processing": null,
+                "address": null,
+                "data_update": 1723029021,
+                "phone_number": null
+              }
+            }
+          ]
+        },
+        "user": {
+          "id": 393,
+          "name": "axk_manager",
+          "status": {
+            "id": 2,
+            "name": "Подтвержден (активен)"
+          },
+          "avatar": null,
+          "job_title": "manager",
+          "work_phone": null,
+          "id_1c": null,
+          "lang": null,
+          "address": ", , , ",
+          "group": {
+            "id": 10,
+            "name": "Сотрудник"
+          },
+          "parent": {
+            "id": 1,
+            "name": "Админ системы",
+            "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+            "group": {
+              "id": 1,
+              "name": "Администратор системы"
+            },
+            "parent": null
+          },
+          "childs": [],
+          "department": {
+            "id": 1,
+            "name": "Технический отдел"
+          }
+        },
+        "status": {
+          "id": 5,
+          "name": "Завершена",
+          "id_1c": "6"
+        },
+        "request": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 2,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723029058,
+          "phone_number": null
+        }
+      },
+      {
+        "id": 20,
+        "request_id": 9,
+        "user_id": 388,
+        "status_id": 2,
+        "date_add": 1723027597,
+        "comment": "",
+        "request_state": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 2,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723027597,
+          "files": [],
+          "theme": {
+            "id": 3,
+            "name": "Лифты"
+          },
+          "status": {
+            "id": 2,
+            "name": "Передана в работу",
+            "id_1c": "3"
+          },
+          "contact": {
+            "id": 388,
+            "name": "Stanislau Melnik",
+            "status": {
+              "id": 2,
+              "name": "Подтвержден (активен)"
+            },
+            "avatar": null,
+            "job_title": "front",
+            "work_phone": null,
+            "id_1c": null,
+            "lang": null,
+            "address": ", , , ",
+            "group": {
+              "id": 10,
+              "name": "Сотрудник"
+            },
+            "parent": {
+              "id": 1,
+              "name": "Админ системы",
+              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+              "group": {
+                "id": 1,
+                "name": "Администратор системы"
+              },
+              "parent": null
+            },
+            "childs": [],
+            "department": {
+              "id": 8,
+              "name": "IT"
+            }
+          },
+          "contact_address": ", , , ",
+          "processor": {
+            "id": 396,
+            "name": "Валерия Закревская",
+            "status": {
+              "id": 2,
+              "name": "Подтвержден (активен)"
+            },
+            "avatar": null,
+            "job_title": "Designer",
+            "work_phone": null,
+            "id_1c": null,
+            "lang": null,
+            "address": ", , , ",
+            "group": {
+              "id": 10,
+              "name": "Сотрудник"
+            },
+            "parent": {
+              "id": 1,
+              "name": "Админ системы",
+              "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+              "group": {
+                "id": 1,
+                "name": "Администратор системы"
+              },
+              "parent": null
+            },
+            "childs": [],
+            "department": {
+              "id": 8,
+              "name": "IT"
+            }
+          },
+          "history": []
+        },
+        "user": {
+          "id": 388,
+          "name": "Stanislau Melnik",
+          "status": {
+            "id": 2,
+            "name": "Подтвержден (активен)"
+          },
+          "avatar": null,
+          "job_title": "front",
+          "work_phone": null,
+          "id_1c": null,
+          "lang": null,
+          "address": ", , , ",
+          "group": {
+            "id": 10,
+            "name": "Сотрудник"
+          },
+          "parent": {
+            "id": 1,
+            "name": "Админ системы",
+            "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+            "group": {
+              "id": 1,
+              "name": "Администратор системы"
+            },
+            "parent": null
+          },
+          "childs": [],
+          "department": {
+            "id": 8,
+            "name": "IT"
+          }
+        },
+        "status": {
+          "id": 2,
+          "name": "Передана в работу",
+          "id_1c": "3"
+        },
+        "request": {
+          "id": 9,
+          "is_application": 0,
+          "theme_id": 3,
+          "title": null,
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "files_ids": "a:0:{}",
+          "contact_id": 388,
+          "status_id": 2,
+          "user_id": null,
+          "data_add": 1723027597,
+          "contact_phone": "+37544-733-66-60",
+          "contact_fio": "Stanislau Melnik",
+          "comment": "",
+          "sync_1c": null,
+          "ticket_number": null,
+          "processor_id": 396,
+          "time_processing": null,
+          "address": null,
+          "data_update": 1723029058,
+          "phone_number": null
+        }
+      }
+    ]
+  },
+  "hash": "a0527e31d1073ad1ff95655a24a89890",
+  "timestamp": 1723030414
+}

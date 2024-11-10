@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 100px;
+  background-color: var(--overlay-secondary);
+  height: 40px;
+  color: var(--text-primary);
+  transition: all var(--animation-duration) ease;
+  gap: 8px;
+  text-transform: capitalize;
+  cursor: pointer;
+}

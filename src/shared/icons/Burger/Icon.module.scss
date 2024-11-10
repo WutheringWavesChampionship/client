@@ -1,0 +1,19 @@
+.wrapper {
+  rect {
+    transition: all var(--animation-duration) ease;
+  }
+
+  &:hover {
+    .second {
+      transform: translateX(-4px);
+    }
+  }
+}
+
+.second {
+  transition: all var(--animation-duration) ease;
+}
+
+.hideAnimation {
+  transition: all 0s ease !important;
+}

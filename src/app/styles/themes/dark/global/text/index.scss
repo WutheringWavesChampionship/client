@@ -1,0 +1,19 @@
+.app_dark_theme {
+  --text-primary: rgba(219, 219, 219, 100%);
+  --text-secondary: rgba(209, 209, 209, 100%);
+  --text-tertiary: rgba(164, 164, 164, 100%);
+  --text-placeholder: rgba(153, 152, 152, 100%);
+  --text-disabled: rgba(138, 136, 136, 100%);
+  --text-error: rgba(250, 70, 92, 100%);
+
+  // button
+  --text-button-primary: rgb(0, 0, 0);
+
+  // badge
+  --text-badge-green: rgba(222, 238, 229, 100%);
+  --text-badge-grey: rgba(232, 234, 236, 100%);
+  --text-badge-blue: rgba(203, 219, 239, 100%);
+  --text-badge-violet: rgba(228, 219, 238, 100%);
+  --text-badge-orange: rgba(239, 227, 194, 100%);
+  --text-badge-red: rgba(239, 223, 221, 100%);
+}

@@ -1,0 +1,36 @@
+.wrapper {
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+  width: fit-content;
+  margin: auto;
+  margin-top: -40px;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+
+.text {
+  color: var(--dark-70);
+}
+
+.controls {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 100%;
+  max-width: 230px;
+  text-wrap: nowrap;
+}

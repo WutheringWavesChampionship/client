@@ -1,0 +1,9 @@
+@import "react-toastify/dist/ReactToastify.css";
+
+:root {
+  --toastify-icon-color-success: var(--text-badge-green);
+  --toastify-color-progress-success: var(--text-badge-green);
+  --toastify-icon-color-error: var(--text-error);
+  --toastify-color-progress-error: var(--text-error);
+  --toastify-color-progress-light: var(--badge-blue);
+}

@@ -1,0 +1,80 @@
+{
+  "routes": {
+    "employees": "Employees",
+    "employee": "Employee",
+    "create": "Create new employee",
+    "update": "Update employee"
+  },
+  "controls": {
+    "create": "Create",
+    "find": "Enter last name or first name",
+    "update": "Update",
+    "cancel": "Cancel"
+  },
+  "fields": {
+    "noRole": "Without role",
+    "other": "Other"
+  },
+  "info_fields": {
+    "name": "Full name",
+    "phone": "Mobile phone",
+    "work_phone": "Working phone",
+    "department": "Department",
+    "post": "Job title",
+    "role": "Access rights",
+    "login": "Login",
+    "password": "Password"
+  },
+  "titles": {
+    "credentials": "Employee credentials"
+  },
+  "btns": {
+    "delete": "Delete",
+    "edit": "Edit"
+  },
+  "toast": {
+    "deleteError": "Failed to delete employee"
+  },
+  "remove": {
+    "title": "Are you sure you want to delete this employee? This action cannot be undone.",
+    "text": "This action cannot be undone"
+  },
+  "editor": {
+    "email": {
+      "label": "Email address",
+      "placeholder": "Enter the email address of the employee"
+    },
+    "name": {
+      "label": "Full name",
+      "placeholder": "Enter full name"
+    },
+    "department": {
+      "label": "Department",
+      "placeholder": "Select department"
+    },
+    "job_title": {
+      "label": "Job title",
+      "placeholder": "Enter job title"
+    },
+    "phone": {
+      "label": "Mobile phone number",
+      "placeholder": "Enter your phone number"
+    },
+    "work_phone": {
+      "label": "Work phone number",
+      "placeholder": "Enter your phone number"
+    },
+    "role": {
+      "label": "Access rights",
+      "placeholder": "Select permissions"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter password"
+    },
+    "id_1c": {
+      "label": "1C ID",
+      "placeholder": "Enter employee ID from 1C"
+    }
+  }
+}

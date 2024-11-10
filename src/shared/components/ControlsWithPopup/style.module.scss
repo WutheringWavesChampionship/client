@@ -1,0 +1,45 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 6px;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+
+  path {
+    fill: var(--controls-with-popup-icon);
+  }
+
+  &:hover {
+    background-color: var(--controls-with-popup-bg-hover);
+  }
+}
+
+.disabled {
+  pointer-events: none;
+}
+
+.table {
+  margin: 6px 0;
+}
+
+.popup {
+  position: absolute !important;
+  right: calc(100% + 5px);
+  z-index: 1;
+}
+
+.bottom {
+  bottom: 8px;
+  right: calc(100% + 5px);
+}
+
+.top {
+  top: 8px;
+  right: calc(100% + 5px);
+}

@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 16px;
+  width: fit-content;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+
+.blue {
+  background-color: var(--badge-blue-bg);
+  color: var(--badge-blue-text);
+
+  path {
+    fill: var(--badge-blue-text);
+  }
+}
+
+.green {
+  background-color: var(--badge-green-bg);
+  color: var(--badge-green-text);
+
+  path {
+    fill: var(--badge-green-text);
+  }
+}
+
+.orange {
+  background-color: var(--badge-orange-bg);
+  color: var(--badge-orange-text);
+
+  path {
+    fill: var(--badge-orange-text);
+  }
+}
+
+.red {
+  background-color: var(--badge-red-bg);
+  color: var(--badge-red-text);
+
+  path {
+    fill: var(--badge-red-text);
+  }
+}
+
+.violet {
+  background-color: var(--badge-violet-bg);
+  color: var(--badge-violet-text);
+
+  path {
+    fill: var(--badge-violet-text);
+  }
+}
+
+.grey {
+  background-color: var(--badge-grey-bg);
+  color: var(--badge-grey-text);
+
+  path {
+    fill: var(--badge-grey-text);
+  }
+}

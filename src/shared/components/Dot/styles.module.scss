@@ -1,0 +1,29 @@
+.wrapper {
+  display: flex;
+  border-radius: 50%;
+  content: "";
+}
+
+.green {
+  background-color: var(--dot-green);
+}
+
+.grey {
+  background-color: var(--dot-grey);
+}
+
+.blue {
+  background-color: var(--dot-blue);
+}
+
+.violet {
+  background-color: var(--dot-violet);
+}
+
+.orange {
+  background-color: var(--dot-orange);
+}
+
+.red {
+  background-color: var(--dot-red);
+}

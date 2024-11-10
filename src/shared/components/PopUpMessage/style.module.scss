@@ -1,0 +1,25 @@
+.wrapper {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: var(--popup-background);
+  padding: 11px 21px;
+  width: 280px;
+  border-radius: 10px;
+  transform: translate(-50%, calc(-100% - 13px + 4px));
+
+  &::after {
+    content: "";
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: calc(50% - 6.5px);
+    top: calc(100% - 6.5px);
+    background-color: var(--popup-background);
+    transform: rotate(45deg);
+  }
+}
+
+.text {
+  color: var(--popup-text) !important;
+}

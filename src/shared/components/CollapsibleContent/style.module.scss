@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 24px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+}
+
+.collapse {
+  height: 0;
+  display: none;
+}
+
+.active {
+  cursor: pointer;
+  transition: all calc(var(--animation-duration) / 2) ease;
+}
+
+.message {
+  display: none;
+}
+
+.info {
+  display: flex;
+  position: relative;
+
+  &:hover {
+    .message {
+      display: flex;
+    }
+  }
+}

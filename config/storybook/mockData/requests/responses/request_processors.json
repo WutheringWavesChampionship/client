@@ -1,0 +1,199 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 387,
+      "name": "QA",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "avatar": null,
+      "job_title": "QA",
+      "work_phone": null,
+      "id_1c": null,
+      "lang": null,
+      "address": ", , , ",
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": {
+        "id": 8,
+        "name": "IT"
+      }
+    },
+    {
+      "id": 388,
+      "name": "Stanislau Melnik",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "avatar": null,
+      "job_title": "front",
+      "work_phone": null,
+      "id_1c": null,
+      "lang": null,
+      "address": ", , , ",
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": {
+        "id": 8,
+        "name": "IT"
+      }
+    },
+    {
+      "id": 389,
+      "name": "Admin",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "avatar": null,
+      "job_title": "Супер админ",
+      "work_phone": null,
+      "id_1c": null,
+      "lang": null,
+      "address": ", , , ",
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": null
+    },
+    {
+      "id": 392,
+      "name": "axk test role admin",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "avatar": null,
+      "job_title": "qa_sadmin",
+      "work_phone": "3193919",
+      "id_1c": null,
+      "lang": null,
+      "address": ", , , ",
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": {
+        "id": 1,
+        "name": "Технический отдел"
+      }
+    },
+    {
+      "id": 396,
+      "name": "Валерия Закревская",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "avatar": null,
+      "job_title": "Designer",
+      "work_phone": null,
+      "id_1c": null,
+      "lang": null,
+      "address": ", , , ",
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": {
+        "id": 8,
+        "name": "IT"
+      }
+    },
+    {
+      "id": 394,
+      "name": "axk_technik",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "avatar": null,
+      "job_title": "technik",
+      "work_phone": null,
+      "id_1c": null,
+      "lang": null,
+      "address": ", , , ",
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": null
+    }
+  ],
+  "hash": "8caad1b93640d44156bc2df4958e851b",
+  "timestamp": 1723028786
+}

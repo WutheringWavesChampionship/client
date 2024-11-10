@@ -1,0 +1,17 @@
+.app_dark_theme {
+  --select-option-hover: rgba(48, 48, 48, 100%);
+  --select-option-active: rgba(59, 59, 59, 100%);
+  --input-background: var(--surface-input);
+  --input-border: var(--borders-input);
+  --input-border-hover: var(--borders-input-hover);
+  --input-border-active: var(--borders-input-active);
+  --input-border-disabled: var(--borders-input-disabled);
+  --input-border-error: var(--text-error);
+  --input-border-padding: var(--padding-md);
+  --input-border-width: var(--border-width);
+  --input-text: var(--text-primary);
+  --input-text-label: var(--text-tertiary);
+  --input-text-disabled: var(--icons-disabled);
+  --input-text-error: var(--text-error);
+  --input-text-placeholder: var(--text-placeholder);
+}

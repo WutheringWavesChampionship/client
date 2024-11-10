@@ -1,0 +1,19 @@
+:root {
+  --text-primary: rgba(38, 38, 38, 100%);
+  --text-secondary: rgba(64, 64, 64, 100%);
+  --text-tertiary: rgba(115, 115, 115, 100%);
+  --text-placeholder: rgba(133, 133, 133, 100%);
+  --text-disabled: rgba(153, 153, 153, 100%);
+  --text-error: rgba(227, 30, 30, 100%);
+
+  // button
+  --text-button-primary: rgba(253, 253, 253, 100%);
+
+  // badge
+  --text-badge-green: rgba(27, 52, 38, 100%);
+  --text-badge-grey: rgba(52, 50, 45, 100%);
+  --text-badge-blue: rgba(28, 56, 55, 100%);
+  --text-badge-violet: rgba(66, 36, 84, 100%);
+  --text-badge-orange: rgba(64, 44, 27, 100%);
+  --text-badge-red: rgba(56, 22, 21, 100%);
+}

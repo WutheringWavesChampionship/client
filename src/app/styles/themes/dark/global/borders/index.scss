@@ -1,0 +1,13 @@
+.app_dark_theme {
+  --borders-background: rgba(255, 255, 255, 20%);
+  --borders-sidebar: rgba(97, 97, 97, 100%);
+
+  // input
+  --borders-input: rgba(77, 77, 77, 100%);
+  --borders-input-hover: rgba(107, 107, 107, 100%);
+  --borders-input-active: rgba(116, 143, 255, 100%);
+  --borders-button: rgba(221, 221, 221, 100%);
+  --borders-button-hover: rgba(166, 166, 166, 100%);
+  --borders-button-pressed: rgba(22, 22, 22, 100%);
+  --borders-button-disabled: rgba(230, 230, 230, 100%);
+}

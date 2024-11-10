@@ -1,0 +1,23 @@
+:root {
+  // primary
+  --button-primary: rgba(23, 23, 23, 100%);
+  --button-primary-text: rgba(253, 253, 253, 100%);
+  --button-primary-hover: rgba(56, 56, 56, 100%);
+  --button-primary-pressed: rgba(133, 133, 133, 100%);
+  --button-secondary: rgba(242, 242, 242, 100%);
+  --button-secondary-hover: rgba(230, 230, 230, 100%);
+  --button-secondary-pressed: rgba(209, 209, 209, 100%);
+  --button-secondary-disabled: rgba(230, 230, 230, 100%);
+  --button-warning: rgba(248, 228, 228, 100%);
+  --button-warning-text: rgba(227, 30, 30, 100%);
+  --button-warning-pressed: rgba(181, 21, 21, 100%);
+  --button-text: rgba(58, 99, 250, 100%);
+  --button-text-hover: rgba(50, 85, 214, 100%);
+  --button-text-pressed: rgba(37, 57, 129, 100%);
+  --button-outline: rgba(255, 255, 255, 100%);
+  --button-outline-border: rgba(221, 221, 221, 100%);
+  --button-outline-border-hover: rgba(166, 166, 166, 100%);
+  --button-outline-border-active: rgba(230, 230, 230, 100%);
+  --button-disabled: rgba(230, 230, 230, 100%);
+  --button-disabled-text: rgba(153, 153, 153, 100%);
+}

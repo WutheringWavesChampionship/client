@@ -1,0 +1,17 @@
+.wrapper {
+  padding: 8px;
+  border: var(--border-width) solid var(--controls-with-popup-popup-border);
+  text-wrap: nowrap;
+}
+
+.danger {
+  color: var(--controls-with-popup-popup-danger-text);
+
+  path {
+    fill: var(--controls-with-popup-popup-danger-text);
+  }
+
+  p {
+    color: var(--controls-with-popup-popup-danger-text);
+  }
+}

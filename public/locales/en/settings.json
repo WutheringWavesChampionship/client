@@ -1,0 +1,78 @@
+{
+  "title": "Settings",
+  "errors": {
+    "getError": "Failed to retrieve data from server",
+    "langError": "Failed to change language"
+  },
+  "blocks": {
+    "titles": {
+      "profile_data": "Profile Data",
+      "account_management": "Account Management",
+      "profile_photo": "Profile Photo",
+      "phone_number": "Phone Number",
+      "password": "Password",
+      "account_deleting": "Delete Account",
+      "language": "Language",
+      "changeEmail": "Changing your e-mail address",
+      "changePhone": "Changing the phone number"
+    },
+    "descriptions": {
+      "account_deleting": "Delete account and all associated data",
+      "language": "Choose the language you want to use for the site interface",
+      "changePhone": "Contact the management company to change the phone number."
+    },
+    "btns": {
+      "edit": "Edit",
+      "delete": "Delete",
+      "save": "Save",
+      "cancel": "Cancel",
+      "next": "Next",
+      "confirm": "Confirm"
+    },
+    "name": {
+      "label": "Name",
+      "placeholder": "Enter name"
+    },
+    "surname": {
+      "label": "Surname",
+      "placeholder": "Enter surname"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "New email"
+    },
+    "phone": {
+      "label": "Phone Number",
+      "placeholder": "New phone number"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Enter password"
+    },
+    "passwordOld": {
+      "label": "Old password",
+      "placeholder": "Enter password"
+    },
+    "passwordConfirm": {
+      "label": "Repeat the password",
+      "placeholder": "Enter password"
+    },
+    "deleting": {
+      "label": "Delete Account",
+      "placeholder": "Delete account and all associated data",
+      "modal": {
+        "title": "Are you sure you want to delete the account?",
+        "text": "All account data will be deleted without possibility of recovery",
+        "success": "Account details have been successfully deleted"
+      }
+    },
+    "confirmCode": {
+      "title": "Enter the code you received",
+      "email": "Code sent to email",
+      "phone": "Code sent to phone",
+      "toast": {
+        "success": "Email has been successfully changed"
+      }
+    }
+  }
+}

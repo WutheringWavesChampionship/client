@@ -1,0 +1,3 @@
+[submodule "src/shared/server"]
+	path = src/shared/server
+	url = git@github.com:WutheringWavesChampionship/shared.git

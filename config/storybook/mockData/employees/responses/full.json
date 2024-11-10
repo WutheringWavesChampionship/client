@@ -1,0 +1,188 @@
+{
+    "success": true,
+    "data": {
+      "id": 389,
+      "name": "Admin",
+      "status": {
+        "id": 2,
+        "name": "Подтвержден (активен)"
+      },
+      "phone_number": "+37566666666",
+      "email": "admin@mail.com",
+      "avatar": null,
+      "job_title": "Супер админ",
+      "work_phone": null,
+      "id_1c": null,
+      "accept_intercom": 0,
+      "account_numbers": [],
+      "two_fa": null,
+      "permissions": null,
+      "lang": null,
+      "address": ", , , ",
+      "login": "NW5195",
+      "accept_push": null,
+      "role": {
+        "id": 16,
+        "name": "Супер админ",
+        "description": "администратор с полным доступом",
+        "access_codes": [
+          {
+            "id": 31,
+            "name": "Заявки, создание",
+            "section_id": 5,
+            "section_name": "Заявки, create",
+            "section": {
+              "id": 5,
+              "name": "Заявки",
+              "type": "client",
+              "actions": [
+                {
+                  "id": 1,
+                  "name": "Добавить / Создать"
+                },
+                {
+                  "id": 2,
+                  "name": "Редактировать / обновить"
+                },
+                {
+                  "id": 3,
+                  "name": "Просмотр"
+                },
+                {
+                  "id": 4,
+                  "name": "Удаление"
+                }
+              ]
+            }
+          },
+          {
+            "id": 32,
+            "name": "Заявки, обновление",
+            "section_id": 5,
+            "section_name": "Заявки, update",
+            "section": {
+              "id": 5,
+              "name": "Заявки",
+              "type": "client",
+              "actions": [
+                {
+                  "id": 1,
+                  "name": "Добавить / Создать"
+                },
+                {
+                  "id": 2,
+                  "name": "Редактировать / обновить"
+                },
+                {
+                  "id": 3,
+                  "name": "Просмотр"
+                },
+                {
+                  "id": 4,
+                  "name": "Удаление"
+                }
+              ]
+            }
+          },
+          {
+            "id": 33,
+            "name": "Заявки, обработка",
+            "section_id": 5,
+            "section_name": "Заявки, processing",
+            "section": {
+              "id": 5,
+              "name": "Заявки",
+              "type": "client",
+              "actions": [
+                {
+                  "id": 1,
+                  "name": "Добавить / Создать"
+                },
+                {
+                  "id": 2,
+                  "name": "Редактировать / обновить"
+                },
+                {
+                  "id": 3,
+                  "name": "Просмотр"
+                },
+                {
+                  "id": 4,
+                  "name": "Удаление"
+                }
+              ]
+            }
+          },
+          {
+            "id": 30,
+            "name": "Роли",
+            "section_id": 8,
+            "section_name": "Права доступа",
+            "section": {
+              "id": 8,
+              "name": "Права доступа",
+              "type": "client",
+              "actions": [
+                {
+                  "id": 1,
+                  "name": "Добавить / Создать"
+                },
+                {
+                  "id": 2,
+                  "name": "Редактировать / обновить"
+                },
+                {
+                  "id": 3,
+                  "name": "Просмотр"
+                },
+                {
+                  "id": 4,
+                  "name": "Удаление"
+                }
+              ]
+            }
+          },
+          {
+            "id": 34,
+            "name": "Пользователи, добавление",
+            "section_id": 25,
+            "section_name": "Пользователи, добавление",
+            "section": {
+              "id": 25,
+              "name": "Пользователи",
+              "type": "client",
+              "actions": []
+            }
+          }
+        ],
+        "users": [
+          {
+            "id": 388,
+            "name": "Stanislau Melnik"
+          },
+          {
+            "id": 389,
+            "name": "Admin"
+          }
+        ]
+      },
+      "group": {
+        "id": 10,
+        "name": "Сотрудник"
+      },
+      "parent": {
+        "id": 1,
+        "name": "Админ системы",
+        "avatar": "https://northwaterfront.evocontrols.com/files/7b0c9131d832daad.jpg",
+        "group": {
+          "id": 1,
+          "name": "Администратор системы"
+        },
+        "parent": null
+      },
+      "childs": [],
+      "department": null
+    },
+    "hash": "aef7c45d9633cb04e62a7e448338bc97",
+    "timestamp": 1722853182
+  }
