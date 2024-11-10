@@ -1,18 +1,21 @@
-import { LoginPage } from '@pages/auth';
+import { LoginPage, RegistrationPage } from '@pages/auth';
 import { ForbiddenPage, NotFoundPage } from '@pages/error';
 import { AppRoutes, AppRoutesEnum } from '@entities/constants';
 import { AppRoutesProps } from '@entities/interfaces';
 
 export const routeConfig: Partial<Record<AppRoutesEnum, AppRoutesProps>> = {
-  /* [AppRoutesEnum.MAIN]: {
+  [AppRoutesEnum.MAIN]: {
     path: AppRoutes[AppRoutesEnum.MAIN](),
-    element: <RequestListPage />,
+    element: <NotFoundPage />,
     authOnly: true,
-  }, */
+  },
   [AppRoutesEnum.AUTH_LOGIN]: {
     path: AppRoutes[AppRoutesEnum.AUTH_LOGIN](),
     element: <LoginPage />,
-    authOnly: true,
+  },
+  [AppRoutesEnum.AUTH_REGISTRATION]: {
+    path: AppRoutes[AppRoutesEnum.AUTH_REGISTRATION](),
+    element: <RegistrationPage />,
   },
 
   /* [AppRoutesEnum.SETTINGS]: {

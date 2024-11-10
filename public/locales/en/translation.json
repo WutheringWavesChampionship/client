@@ -1,48 +1,4 @@
 {
-  "sidebar": {
-    "main": "Main",
-    "admin": "Administration",
-    "news": "News",
-    "events": "Events",
-    "meetings": "Meetings",
-    "notifications": "Notifications",
-    "voting": "Voting",
-    "technicalWorks": "Technical Works",
-    "loyalty": "Loyalty Program",
-    "advertisement": "Advertising",
-    "employee_announcements": "Employee Announcements",
-    "poster": "Poster",
-    "activity": "Activities",
-    "services": "Services",
-    "invocation": "Requests and Applications",
-    "requests": "Requests",
-    "applications": "Applications",
-    "knowledge": "Knowledge Base",
-    "settings": "Settings",
-    "announcements": "Announcements",
-    "accounting": "Accounting",
-    "statistic": "Reports and Statistics",
-    "security": "Security",
-    "engineering": "Engineering Systems",
-    "inform": "Information",
-    "passport": "Passport Desk",
-    "users": "Users",
-    "access": "Access Control",
-    "intercom": "Intercom",
-    "video": "Video Surveillance",
-    "energy": "Energy resources",
-    "heating": "Heating points",
-    "lifts": "Lifts",
-    "residents": "Residents",
-    "employees": "Employees",
-    "accessRights": "Access Rights",
-    "roles": "Roles"
-  },
-  "header": {
-    "login": "Login",
-    "logout": "Logout"
-  },
-  "poster": "Poster",
   "not_found": {
     "title": "Page Not Found",
     "text": "Wrong address or this page does not exist",
@@ -55,16 +11,6 @@
     "back": "Go Back",
     "toMain": "Home"
   },
-  "toast": {
-    "deleteSuccess": "Deleted successfully",
-    "deleteError": "Could not delete",
-    "updateSuccess": "Updated successfully",
-    "updateError": "Could not update",
-    "createSuccess": "Created successfully",
-    "createError": "Could not create",
-    "notFound": "Could not retrieve data from server",
-    "unforeseen": "Unforeseen error"
-  },
   "errors": {
     "required": "Field is required",
     "max256": "Title should be less than 256 characters",
@@ -74,82 +20,19 @@
     "video": "Sorry, your browser does not support embedded video.",
     "passwordPattern": "Password must be at least 8 characters and contain at least one number and one uppercase letter",
     "passwordMatch": "Passwords do not match",
-    "datePast": "The date must be later than the current date",
-    "phoneNumber": "Incorrect telephone number"
+    "notEmail": "Incorrect mail format",
+    "notPhone": "Incorrect teledef format",
+    "invalidLink": "Incorrect link format",
+    "confirmationCode": "Invalid confirmation code",
+    "loginError": "Failed to authorize",
+    "unauthorized": "You are not authorized",
+    "emailAlreadyExist": "An account with this email address already exists",
+    "forbidden": "No access",
+    "toManyRequests": "Too many requests, try again later",
+    "finishBeforeStart": "The end date cannot be earlier than the start date",
+    "dateBeforeNow": "You cannot select a date earlier than the current date",
+    "unexpected": "There was an unforeseen error"
   },
-  "actions": {
-    "reset": "Reset"
-  },
-  "controls": {
-    "publish": "Publish",
-    "refresh": "Refresh",
-    "cancel": "Cancel",
-    "draft": "Save Draft",
-    "create": "Create",
-    "archive": "Go to Archived",
-    "actual": "Go to Current",
-    "find": "Search",
-    "delete": "Delete",
-    "greetings": "Good Day",
-    "preview": "Preview",
-    "addPhone": "Add Phone Number",
-    "add": "Add",
-    "change": "Change"
-  },
-  "remove": {
-    "title": "Are you sure you want to delete? This action cannot be undone",
-    "text": "This action cannot be undone"
-  },
-  "search": "Search",
-  "greetings": "Good Day",
-  "all": "All",
-  "month": [
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-  ],
-  "popup": {
-    "preview": "Preview",
-    "edit": "Edit",
-    "map": "Open on Map",
-    "delete": "Delete",
-    "open": "Open",
-    "markAsFailed": "Mark as failed",
-    "personal_notification": "Personal notification"
-  },
-  "period": {
-    "from": "From",
-    "to": "To"
-  },
-  "footer": {
-    "nuanu": "OOO «Managing Company Nuanu»",
-    "actualAddress": "Legal address: Minsk, Sverdlova str. 11, office 329",
-    "legalAddress": "Actual address: 80 Tsvirko str., Minsk, Minsk",
-    "advertisement": "Buy an apartment in 'Nuanu'",
-    "therms": "Terms of Use",
-    "privacy": "Privacy Policy"
-  },
-  "filters": {
-    "all": "All",
-    "actual": "Actual",
-    "closed": "Closed"
-  },
-  "discount": "Discount",
-  "comment": "Comment",
-  "rarus": "Migration to 1C Rarus",
-  "pageTitle": "Nuanu",
-  "globalError": {
-    "title": "Sorry, something went wrong",
-    "text": "We are aware of the problem and are already working. Try refreshing the page or logging in later.",
-    "reload": "Refresh page"
-  }
+  "loginTitle": "Login",
+  "RegistrationTitle": "Registration"
 }

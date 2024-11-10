@@ -1,26 +1,37 @@
-import { memo, Suspense, useCallback } from 'react';
+import { memo, Suspense, useCallback, useContext } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { GlobalContext, UserDataContext } from '@entities/context';
 import { AppRoutesProps } from '@entities/interfaces';
 import { PageLoader } from '@shared/components';
 import { routeConfig } from '../config';
 import { RequireAuth } from '../RequireAuth';
 
 export const AppRouter = memo(() => {
-  const renderWithWrapper = useCallback((route: AppRoutesProps) => {
-    const element = (
-      <Suspense fallback={<PageLoader />}>{route.element}</Suspense>
-    );
+  const { isLoading } = useContext(GlobalContext);
+  const { isLoading: isUserLoading } = useContext(UserDataContext);
+  const renderWithWrapper = useCallback(
+    (route: AppRoutesProps) => {
+      if (isLoading || isUserLoading) {
+        return (
+          <Route key={route.path} path={route.path} element={<PageLoader />} />
+        );
+      }
+      const element = (
+        <Suspense fallback={<PageLoader />}>{route.element}</Suspense>
+      );
 
-    return (
-      <Route
-        key={route.path}
-        path={route.path}
-        element={
-          route.authOnly ? <RequireAuth>{element}</RequireAuth> : element
-        }
-      />
-    );
-  }, []);
+      return (
+        <Route
+          key={route.path}
+          path={route.path}
+          element={
+            route.authOnly ? <RequireAuth>{element}</RequireAuth> : element
+          }
+        />
+      );
+    },
+    [isLoading, isUserLoading],
+  );
 
   return <Routes>{Object.values(routeConfig).map(renderWithWrapper)}</Routes>;
 });

@@ -7,14 +7,26 @@ import {
 } from '@shared/server/interface';
 
 interface Props {
+  isLoading: boolean;
+  setIsLoading: (val: boolean) => void;
   user?: UserType;
-  characters?: Array<UserCharacterType>;
-  weapons?: Array<UserWeaponType>;
-  setCharacters: (user?: Array<UserCharacterType>) => void;
-  setWeapons: (user?: Array<UserWeaponType>) => void;
+  isAdmin: boolean;
+  characters: Array<UserCharacterType>;
+  weapons: Array<UserWeaponType>;
+  setCharacters: (data: Array<UserCharacterType>) => void;
+  setWeapons: (data: Array<UserWeaponType>) => void;
+  setIsAdmin: (data: boolean) => void;
+  setUser: (data?: UserType) => void;
 }
 
 export const UserDataContext = createContext<Props>({
   setCharacters: () => {},
   setWeapons: () => {},
+  setIsAdmin: () => {},
+  setUser: () => {},
+  isAdmin: false,
+  characters: [],
+  weapons: [],
+  isLoading: false,
+  setIsLoading: () => {},
 });

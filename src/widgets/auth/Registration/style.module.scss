@@ -1,0 +1,40 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 394px;
+}
+
+.centred {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.title {
+  margin-bottom: 24px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.label {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+.button {
+  width: 100% !important;
+  margin: 24px 0 16px;
+}
+
+.forgot {
+  margin-left: auto;
+}

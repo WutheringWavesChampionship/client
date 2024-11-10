@@ -1,7 +1,9 @@
 import { useContext } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useLocation, Navigate } from 'react-router-dom';
 import { AppRoutes, AppRoutesEnum } from '@entities/constants';
 import { UserDataContext } from '@entities/context';
+import { TOKEN_LOCAL_STORAGE_KEY } from '@entities/lib';
+import { PageLoader } from '@shared/components';
 
 interface RequireAuthProps {
   children: JSX.Element;
@@ -9,11 +11,20 @@ interface RequireAuthProps {
 
 export function RequireAuth({ children }: RequireAuthProps) {
   const { user } = useContext(UserDataContext);
-  const navigate = useNavigate();
+  const token = localStorage.getItem(TOKEN_LOCAL_STORAGE_KEY);
+  const location = useLocation();
+  if (!token) {
+    return (
+      <Navigate
+        to={AppRoutes[AppRoutesEnum.AUTH_LOGIN]()}
+        state={{ from: location }}
+        replace
+      />
+    );
+  }
   if (user) {
     return children;
   } else {
-    navigate(AppRoutes[AppRoutesEnum.AUTH_LOGIN]());
-    return children;
+    return <PageLoader />;
   }
 }

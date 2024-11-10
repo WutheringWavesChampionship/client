@@ -7,6 +7,7 @@ import {
   UserDataProvider,
   ThemeProvider,
   ErrorBoundary,
+  GlobalDataProvider,
 } from './app/providers';
 import './app/lib/i18n';
 
@@ -24,13 +25,15 @@ root.render(
   <StrictMode>
     <BrowserRouter>
       <ErrorBoundary>
-        <UserDataProvider>
-          <StylesLayout>
-            <ThemeProvider>
-              <App />
-            </ThemeProvider>
-          </StylesLayout>
-        </UserDataProvider>
+        <GlobalDataProvider>
+          <UserDataProvider>
+            <StylesLayout>
+              <ThemeProvider>
+                <App />
+              </ThemeProvider>
+            </StylesLayout>
+          </UserDataProvider>
+        </GlobalDataProvider>
       </ErrorBoundary>
     </BrowserRouter>
   </StrictMode>,

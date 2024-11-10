@@ -1,4 +1,4 @@
-import { ACCEPTED_LANGUAGES } from "../../src/entities/constants/";
+import { ACCEPTED_LANGUAGES, DEFAULT_LANGUAGE } from "../../src/entities/constants/";
 import fs from 'fs'
 import path from 'path'
 
@@ -12,10 +12,10 @@ describe('localizations', () => {
   })
   const defaultNs: Record<string, () => Promise<any>> = {}
   const defaultNsFiles = fs
-    .readdirSync(path.join(__dirname, 'ru'))
+    .readdirSync(path.join(__dirname, DEFAULT_LANGUAGE))
     .filter((file) => file.endsWith('.json'))
   for (const file of defaultNsFiles) {
-    defaultNs[file] = () => import(`./ru/${file}`).then((val) => val.default)
+    defaultNs[file] = () => import(`./${DEFAULT_LANGUAGE}/${file}`).then((val) => val.default)
   }
   folders.forEach((locale) => {
     describe(`check ${locale} localization files`, () => {
@@ -34,7 +34,7 @@ describe('localizations', () => {
           const localKeys = getObjectKeys(localFile)
           expect(localKeys).toEqual(defaultKeys)
           expect(folders.length).toEqual(ACCEPTED_LANGUAGES.length)
-          if (locale !== 'ru') {
+          if (locale !== DEFAULT_LANGUAGE) {
             expect(localFile).not.toEqual(defaultFile)
           }
         })
