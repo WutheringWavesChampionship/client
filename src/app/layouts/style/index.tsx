@@ -14,7 +14,7 @@ export const StylesLayout = ({ children }: Props) => {
       <div className={styles.imageWrapper}>
         <img
           className={styles.image}
-          src={'/background/20241018193341.png'}
+          src={'/assets/background/20241018193341.png'}
           alt="background"
         />
       </div>
