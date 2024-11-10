@@ -1,0 +1,20 @@
+{
+  "level": {
+    "label": "Level",
+    "placeholder": "Specify the current level"
+  },
+  "constants": {
+    "label": "Constants",
+    "placeholder": "Specify the number of constants"
+  },
+  "critValue": {
+    "label": "Critical Mass",
+    "placeholder": "Specify the current critical mass"
+  },
+  "save": "Save",
+  "delete": "Delete",
+  "updateSuccess": "Data successfully updated",
+  "updateError": "Failed to update data",
+  "deleteSuccess": "Data successfully deleted",
+  "deleteError": "Failed to delete data"
+}

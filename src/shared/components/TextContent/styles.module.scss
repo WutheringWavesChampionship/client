@@ -55,11 +55,11 @@
 
 .size16 {
   font-size: 16px;
-  line-height: 24px;
+  line-height: 18px;
 
   @media (max-width: 980px) {
     font-size: 15px;
-    line-height: 22px;
+    line-height: 18px;
   }
 }
 
@@ -145,6 +145,10 @@
 
 .error {
   color: var(--text-error);
+}
+
+.invert {
+  color: var(--text-invert);
 }
 
 .noWrap {

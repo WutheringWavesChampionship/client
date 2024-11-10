@@ -31,8 +31,17 @@
     "toManyRequests": "Too many requests, try again later",
     "finishBeforeStart": "The end date cannot be earlier than the start date",
     "dateBeforeNow": "You cannot select a date earlier than the current date",
-    "unexpected": "There was an unforeseen error"
+    "unexpected": "There was an unforeseen error",
+    "notFoundPage": "The page was not found or you do not have enough permissions to view it"
   },
-  "loginTitle": "Login",
-  "RegistrationTitle": "Registration"
+  "routes": {
+    "main": "Main",
+    "login": "Login",
+    "registration": "Registration",
+    "settings": "Settings",
+    "characters": "Characters",
+    "character": "Character",
+    "weapons": "weapons",
+    "weapon": "weapon"
+  }
 }

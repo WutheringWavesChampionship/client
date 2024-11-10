@@ -72,6 +72,14 @@ export const useProvider = () => {
     }
   }, [handleGetData, token, user]);
 
+  const logout = useCallback(() => {
+    localStorage.removeItem(TOKEN_LOCAL_STORAGE_KEY);
+    setUser(undefined);
+    setCharacters([]);
+    setWeapons([]);
+    setIsAdmin(false);
+  }, []);
+
   const value = useMemo(
     () => ({
       user,
@@ -84,8 +92,9 @@ export const useProvider = () => {
       setIsAdmin,
       isLoading,
       setIsLoading,
+      logout,
     }),
-    [characters, isAdmin, isLoading, user, weapons],
+    [characters, isAdmin, isLoading, user, weapons, logout],
   );
 
   return {

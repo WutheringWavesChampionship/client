@@ -6,6 +6,9 @@ export enum AppRoutesEnum {
 
   SETTINGS,
 
+  CHARACTER_DETAILS,
+  CHARACTER_CREATE,
+
   // errors
   FORBIDDEN,
   // not found !!!last!!!
@@ -19,6 +22,10 @@ export const AppRoutes = {
   [AppRoutesEnum.AUTH_REGISTRATION]: () => '/registration',
 
   [AppRoutesEnum.SETTINGS]: () => '/settings',
+
+  [AppRoutesEnum.CHARACTER_DETAILS]: (id: string | number) =>
+    `/characters/${id}`,
+  [AppRoutesEnum.CHARACTER_CREATE]: () => '/characters/create',
 
   [AppRoutesEnum.FORBIDDEN]: () => '/forbidden',
   [AppRoutesEnum.NOT_FOUND]: () => '*',

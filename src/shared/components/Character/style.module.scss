@@ -1,0 +1,83 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  gap: 4px;
+}
+
+.imageWrapper {
+  display: flex;
+  flex-shrink: 0;
+  width: 80%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid;
+  z-index: 1;
+}
+
+.image {
+  object-fit: contain;
+  z-index: 1;
+  flex-shrink: 0;
+  width: 100%;
+  height: auto;
+}
+
+.spectro {
+  background-color: rgba(251, 255, 0, 50%);
+}
+
+.havoc {
+  background-color: rgba(156, 0, 0, 50%);
+}
+
+.aero {
+  background-color: rgba(55, 224, 159, 50%);
+}
+
+.glacio {
+  background-color: rgba(67, 231, 231, 50%);
+}
+
+.fusion {
+  background-color: rgba(224, 109, 1, 50%);
+}
+
+.electro {
+  background-color: rgba(85, 0, 119, 50%);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.additionalInfo {
+  position: absolute;
+  top: -16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 40px;
+  border-radius: 4px;
+  background-color: rgba(128, 128, 128, 80%);
+  z-index: 2;
+}
+
+.name {
+  text-align: center;
+}
+
+.legendary {
+  border-color: rgb(218, 200, 124);
+}
+
+.epic {
+  border-color: rgb(99, 53, 90);
+}

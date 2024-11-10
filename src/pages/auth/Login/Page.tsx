@@ -1,11 +1,22 @@
+import { useTranslation } from 'react-i18next';
 import { LoginWidget } from '@widgets/auth';
-import { Paper } from '@shared/components';
+import { PageHeader } from '@widgets/PageHeader';
+import { PageSkeleton, Paper } from '@shared/components';
 import styles from './style.module.scss';
 
 export default () => {
+  const { t } = useTranslation();
   return (
-    <Paper className={styles.wrapper}>
-      <LoginWidget />
-    </Paper>
+    <PageSkeleton className={styles.wrapper}>
+      <PageHeader
+        breadcrumbs={[
+          // { title: t('routes.main'), href: AppRoutes[AppRoutesEnum.MAIN]() },
+          { title: t('routes.login') },
+        ]}
+      />
+      <Paper className={styles.card}>
+        <LoginWidget />
+      </Paper>
+    </PageSkeleton>
   );
 };

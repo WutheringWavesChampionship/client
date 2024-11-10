@@ -1,5 +1,12 @@
 'use client';
-import { memo, useEffect, useMemo, useState, type ReactNode } from 'react';
+import {
+  memo,
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+  type ReactNode,
+} from 'react';
 import { useGetCharactersList, useGetWeaponsList } from '@features/hooks';
 import { GlobalContext } from '@entities/context';
 import { CharacterType, WeaponType } from '@shared/server/interface';
@@ -15,10 +22,26 @@ export const GlobalDataProvider = memo(({ children }: Props) => {
   const getCharacters = useGetCharactersList();
   const getWeapons = useGetWeaponsList();
 
-  useEffect(() => {
-    getCharacters({});
-    getWeapons({});
+  const getData = useCallback(async () => {
+    setIsLoading(true);
+    await Promise.all([
+      getCharacters({
+        onSuccess: (data) => {
+          setCharacters(data || []);
+        },
+      }),
+      getWeapons({
+        onSuccess: (data) => {
+          setWeapons(data || []);
+        },
+      }),
+    ]);
+    setIsLoading(false);
   }, [getCharacters, getWeapons]);
+
+  useEffect(() => {
+    getData();
+  }, [getData]);
 
   const value = useMemo(
     () => ({

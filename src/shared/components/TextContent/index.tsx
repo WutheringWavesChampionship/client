@@ -17,7 +17,8 @@ interface Props
     | 'tertiary'
     | 'placeholder'
     | 'disabled'
-    | 'error';
+    | 'error'
+    | 'invert';
   noWrap?: boolean;
 }
 

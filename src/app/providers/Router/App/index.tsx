@@ -1,17 +1,16 @@
 import { memo, Suspense, useCallback, useContext } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { GlobalContext, UserDataContext } from '@entities/context';
+import { GlobalContext } from '@entities/context';
 import { AppRoutesProps } from '@entities/interfaces';
 import { PageLoader } from '@shared/components';
-import { routeConfig } from '../config';
+import { routeConfig } from '../../../config';
 import { RequireAuth } from '../RequireAuth';
 
 export const AppRouter = memo(() => {
   const { isLoading } = useContext(GlobalContext);
-  const { isLoading: isUserLoading } = useContext(UserDataContext);
   const renderWithWrapper = useCallback(
     (route: AppRoutesProps) => {
-      if (isLoading || isUserLoading) {
+      if (isLoading) {
         return (
           <Route key={route.path} path={route.path} element={<PageLoader />} />
         );
@@ -30,7 +29,7 @@ export const AppRouter = memo(() => {
         />
       );
     },
-    [isLoading, isUserLoading],
+    [isLoading],
   );
 
   return <Routes>{Object.values(routeConfig).map(renderWithWrapper)}</Routes>;

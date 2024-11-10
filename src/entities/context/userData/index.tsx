@@ -17,6 +17,7 @@ interface Props {
   setWeapons: (data: Array<UserWeaponType>) => void;
   setIsAdmin: (data: boolean) => void;
   setUser: (data?: UserType) => void;
+  logout: () => void | Promise<void>;
 }
 
 export const UserDataContext = createContext<Props>({
@@ -29,4 +30,5 @@ export const UserDataContext = createContext<Props>({
   weapons: [],
   isLoading: false,
   setIsLoading: () => {},
+  logout: () => {},
 });
