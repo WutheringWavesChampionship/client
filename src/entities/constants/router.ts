@@ -9,6 +9,9 @@ export enum AppRoutesEnum {
   CHARACTER_DETAILS,
   CHARACTER_CREATE,
 
+  WEAPON_DETAILS,
+  WEAPON_CREATE,
+
   // errors
   FORBIDDEN,
   // not found !!!last!!!
@@ -26,6 +29,9 @@ export const AppRoutes = {
   [AppRoutesEnum.CHARACTER_DETAILS]: (id: string | number) =>
     `/characters/${id}`,
   [AppRoutesEnum.CHARACTER_CREATE]: () => '/characters/create',
+
+  [AppRoutesEnum.WEAPON_DETAILS]: (id: string | number) => `/weapon/${id}`,
+  [AppRoutesEnum.WEAPON_CREATE]: () => '/weapon/create',
 
   [AppRoutesEnum.FORBIDDEN]: () => '/forbidden',
   [AppRoutesEnum.NOT_FOUND]: () => '*',

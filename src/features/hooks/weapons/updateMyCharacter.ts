@@ -3,29 +3,31 @@ import { UserDataContext } from '@entities/context';
 import { BaseFetchProps } from '@entities/interfaces';
 import { axiosApi } from '@entities/lib';
 import { API_ROUTES, API_ROUTES_ENUM } from '@shared/server/constants/api';
-import { UserWeaponType } from '@shared/server/interface';
+import { WeaponType, UpdateUserWeaponType } from '@shared/server/interface';
 
-interface Props extends BaseFetchProps<UserWeaponType> {
+interface Props extends BaseFetchProps<WeaponType> {
+  data: UpdateUserWeaponType;
   id: string | number;
 }
 
-export const useDeleteMyCharacter = () => {
-  const { setIsLoading, characters, setCharacters } =
-    useContext(UserDataContext);
+export const useUpdateMyWeapon = () => {
+  const { setIsLoading, weapons, setWeapons } = useContext(UserDataContext);
   return useCallback(
-    async ({ onError, onSuccess, onFinally, id }: Props) => {
+    async ({ onError, onSuccess, onFinally, data, id }: Props) => {
       try {
         setIsLoading(true);
-        const res = await axiosApi.delete<UserWeaponType>(
-          API_ROUTES[API_ROUTES_ENUM.MY_CHARACTERS_CURRENT].replace(
+        const res = await axiosApi.patch<WeaponType>(
+          API_ROUTES[API_ROUTES_ENUM.MY_WEAPONS_CURRENT].replace(
             ':id',
             String(id),
           ),
+          data,
         );
-        const newCharacters = [...characters];
+        const newCharacters = [...weapons];
         const currentIndex = newCharacters.findIndex((el) => el.id === id);
-        newCharacters.splice(currentIndex, 1);
-        setCharacters(newCharacters);
+        newCharacters[currentIndex].level = data.level;
+        newCharacters[currentIndex].constants = data.constants;
+        setWeapons(newCharacters);
         // setUser(res.data);
         onSuccess?.(res.data);
       } catch (error) {
@@ -36,6 +38,6 @@ export const useDeleteMyCharacter = () => {
         onFinally?.();
       }
     },
-    [characters, setCharacters, setIsLoading],
+    [setIsLoading, setWeapons, weapons],
   );
 };

@@ -9,23 +9,22 @@ interface Props extends BaseFetchProps<UserWeaponType> {
   id: string | number;
 }
 
-export const useDeleteMyCharacter = () => {
-  const { setIsLoading, characters, setCharacters } =
-    useContext(UserDataContext);
+export const useDeleteMyWeapon = () => {
+  const { setIsLoading, weapons, setWeapons } = useContext(UserDataContext);
   return useCallback(
     async ({ onError, onSuccess, onFinally, id }: Props) => {
       try {
         setIsLoading(true);
         const res = await axiosApi.delete<UserWeaponType>(
-          API_ROUTES[API_ROUTES_ENUM.MY_CHARACTERS_CURRENT].replace(
+          API_ROUTES[API_ROUTES_ENUM.MY_WEAPONS_CURRENT].replace(
             ':id',
             String(id),
           ),
         );
-        const newCharacters = [...characters];
-        const currentIndex = newCharacters.findIndex((el) => el.id === id);
-        newCharacters.splice(currentIndex, 1);
-        setCharacters(newCharacters);
+        const newWeapons = [...weapons];
+        const currentIndex = newWeapons.findIndex((el) => el.id === id);
+        newWeapons.splice(currentIndex, 1);
+        setWeapons(newWeapons);
         // setUser(res.data);
         onSuccess?.(res.data);
       } catch (error) {
@@ -36,6 +35,6 @@ export const useDeleteMyCharacter = () => {
         onFinally?.();
       }
     },
-    [characters, setCharacters, setIsLoading],
+    [setIsLoading, setWeapons, weapons],
   );
 };

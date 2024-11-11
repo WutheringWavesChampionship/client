@@ -5,6 +5,7 @@ import styles from './Tab.module.scss';
 
 interface Props {
   className?: string;
+  tabsClassName?: string;
   labels: Array<string | JSX.Element>;
   tabs: Array<string | JSX.Element>;
   selected?: number;
@@ -19,6 +20,7 @@ export const Tab = ({
   selected,
   disabled = [],
   onChange,
+  tabsClassName,
 }: Props) => {
   const { active, setActive } = useTab({ selected, onChange });
   return (
@@ -41,7 +43,9 @@ export const Tab = ({
           );
         })}
       </div>
-      <div className={styles.tabs}>{tabs[active]}</div>
+      <div className={classNames(styles.tabs, tabsClassName)}>
+        {tabs[active]}
+      </div>
     </div>
   );
 };

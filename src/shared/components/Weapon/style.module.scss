@@ -26,30 +26,6 @@
   height: auto;
 }
 
-.spectro {
-  background-color: rgba(251, 255, 0, 50%);
-}
-
-.havoc {
-  background-color: rgba(156, 0, 0, 50%);
-}
-
-.aero {
-  background-color: rgba(55, 224, 159, 50%);
-}
-
-.glacio {
-  background-color: rgba(67, 231, 231, 50%);
-}
-
-.fusion {
-  background-color: rgba(224, 109, 1, 50%);
-}
-
-.electro {
-  background-color: rgba(85, 0, 119, 50%);
-}
-
 .info {
   display: flex;
   flex-direction: column;
@@ -74,10 +50,34 @@
   text-align: center;
 }
 
+.rectifier {
+  border-color: rgba(251, 255, 41, 50%);
+}
+
+.broadBlade {
+  border-color: rgba(156, 0, 0, 50%);
+}
+
+.sword {
+  border-color: rgba(55, 224, 159, 50%);
+}
+
+.gauntlets {
+  border-color: rgba(67, 231, 231, 50%);
+}
+
+.pistols {
+  border-color: rgba(224, 109, 1, 50%);
+}
+
 .legendary {
-  border-color: rgb(218, 200, 124);
+  background-color: rgba(218, 200, 124, 50%);
 }
 
 .epic {
-  border-color: rgb(110, 23, 93);
+  background-color: rgba(110, 23, 93, 50%);
+}
+
+.common {
+  background-color: rgba(185, 185, 185, 50%);
 }

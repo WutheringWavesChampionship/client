@@ -9,7 +9,7 @@ interface Props extends BaseFetchProps<UserWeaponType> {
   id: string | number;
 }
 
-export const useDeleteMyCharacter = () => {
+export const useDeleteCharacter = () => {
   const { setIsLoading, characters, setCharacters } =
     useContext(UserDataContext);
   return useCallback(
@@ -17,7 +17,7 @@ export const useDeleteMyCharacter = () => {
       try {
         setIsLoading(true);
         const res = await axiosApi.delete<UserWeaponType>(
-          API_ROUTES[API_ROUTES_ENUM.MY_CHARACTERS_CURRENT].replace(
+          API_ROUTES[API_ROUTES_ENUM.CHARACTERS_CURRENT].replace(
             ':id',
             String(id),
           ),

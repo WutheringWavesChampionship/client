@@ -1,7 +1,6 @@
 import classNames from 'classnames';
-import { Button, Divider } from '@shared/components';
-import { Character } from '@shared/components/Character';
-import { CharacterType } from '@shared/server/interface';
+import { Button, Divider, Weapon } from '@shared/components';
+import { WeaponType } from '@shared/server/interface';
 import AdminForm from './AdminForm';
 import DataEditor from './DataEditor';
 import { useWidget } from './hook';
@@ -9,10 +8,10 @@ import styles from './style.module.scss';
 
 interface Props {
   className?: string;
-  data: CharacterType;
+  data: WeaponType;
 }
 
-export const CharacterDetails = ({ className, data }: Props) => {
+export const WeaponDetails = ({ className, data }: Props) => {
   const { t, userData, handleAddToMy, isAdmin, getInputProps, open } =
     useWidget(data);
   return (
@@ -20,13 +19,15 @@ export const CharacterDetails = ({ className, data }: Props) => {
       <input {...getInputProps()} />
       <div className={styles.info}>
         <div className={styles.avatar}>
-          <Character
-            className={styles.character}
-            name={data.name}
-            element={data.element}
-            rarity={data.rarity}
-            imagePath={data.image ? `${__API__}${data.image}` : undefined}
+          <Weapon
             size={200}
+            // hideName
+            className={styles.character}
+            mainStat={data.mainStat}
+            rarity={data.rarity}
+            weaponType={data.type}
+            imagePath={data.image ? `${__API__}${data.image}` : undefined}
+            name={data.name}
           />
           {isAdmin && (
             <Button type="button" onClick={open}>
@@ -34,7 +35,7 @@ export const CharacterDetails = ({ className, data }: Props) => {
             </Button>
           )}
         </div>
-        {isAdmin && <AdminForm character={data} />}
+        {isAdmin && <AdminForm data={data} />}
       </div>
       <Divider />
       {!userData && (

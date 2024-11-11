@@ -23,7 +23,12 @@ export default () => {
         ]}
       />
       <Paper className={styles.card}>
-        <Tab labels={labels} tabs={tabs} />
+        <Tab
+          labels={labels}
+          tabs={tabs}
+          className={styles.tabWrapper}
+          tabsClassName={styles.tabs}
+        />
       </Paper>
     </PageSkeleton>
   );

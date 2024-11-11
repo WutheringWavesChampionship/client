@@ -3,9 +3,12 @@ import { UserDataContext } from '@entities/context';
 import { BaseFetchProps } from '@entities/interfaces';
 import { axiosApi } from '@entities/lib';
 import { API_ROUTES, API_ROUTES_ENUM } from '@shared/server/constants/api';
-import { UserType, UpdateUserCharacterType } from '@shared/server/interface';
+import {
+  CharacterType,
+  UpdateUserCharacterType,
+} from '@shared/server/interface';
 
-interface Props extends BaseFetchProps<UserType> {
+interface Props extends BaseFetchProps<CharacterType> {
   data: UpdateUserCharacterType;
   id: string | number;
 }
@@ -17,7 +20,7 @@ export const useUpdateMyCharacter = () => {
     async ({ onError, onSuccess, onFinally, data, id }: Props) => {
       try {
         setIsLoading(true);
-        const res = await axiosApi.patch<UserType>(
+        const res = await axiosApi.patch<CharacterType>(
           API_ROUTES[API_ROUTES_ENUM.MY_CHARACTERS_CURRENT].replace(
             ':id',
             String(id),

@@ -12,7 +12,7 @@ interface Props {
 }
 
 export const UserCharacters = ({ className }: Props) => {
-  const { data, t, isAdmin } = useWidget();
+  const { data, isAdmin } = useWidget();
   return (
     <div className={classNames(styles.wrapper, className)}>
       {data.map((el) => (
@@ -35,7 +35,7 @@ export const UserCharacters = ({ className }: Props) => {
             rarity={el.rarity}
             element={el.element}
             imagePath={el.image ? `${__API__}${el.image}` : undefined}
-            name={t(el.name)}
+            name={el.name}
           />
         </Link>
       ))}

@@ -1,6 +1,6 @@
 import { memo } from 'react';
-import { CharacterDetails } from '@widgets/character';
 import { PageHeader } from '@widgets/PageHeader';
+import { WeaponDetails } from '@widgets/weapon';
 import { AppRoutes, AppRoutesEnum } from '@entities/constants';
 import { PageSkeleton, Paper } from '@shared/components';
 import { usePage } from './hook';
@@ -19,12 +19,12 @@ export default memo(() => {
             href: AppRoutes[AppRoutesEnum.SETTINGS](),
           },
           {
-            title: t('routes.character'),
+            title: t('routes.weapon'),
           },
         ]}
       />
       <Paper className={styles.card} loading={isLoading}>
-        {data && <CharacterDetails data={data} />}
+        {data && <WeaponDetails data={data} />}
       </Paper>
     </PageSkeleton>
   );

@@ -1,9 +1,7 @@
 import { useContext, useMemo } from 'react';
-import { useTranslation } from 'react-i18next';
 import { GlobalContext, UserDataContext } from '@entities/context';
 
 export const useWidget = () => {
-  const { t } = useTranslation('characters');
   const { characters } = useContext(GlobalContext);
   const { characters: userCharacters, isAdmin } = useContext(UserDataContext);
 
@@ -16,5 +14,5 @@ export const useWidget = () => {
     });
   }, [characters, userCharacters]);
 
-  return { data, t, isAdmin };
+  return { data, isAdmin };
 };

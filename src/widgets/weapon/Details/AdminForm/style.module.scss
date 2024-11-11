@@ -1,0 +1,14 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.submit {
+  display: flex;
+  gap: 24px;
+}
+
+.remove {
+  margin-left: 32px;
+}

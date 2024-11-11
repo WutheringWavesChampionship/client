@@ -20,3 +20,4 @@ export * from './SingleRowContent';
 export * from './CollapsibleContent';
 export * from './PageLoader';
 export * from './HeaderItem';
+export * from './Weapon';

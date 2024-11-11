@@ -1,38 +1,27 @@
 import { useCallback, useContext, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
-import { useDeleteCharacter, useUpdateCharacter } from '@features/hooks';
+import { useDeleteWeapon, useUpdateWeapon } from '@features/hooks';
 import { UserDataContext } from '@entities/context';
 import { useAppFormik } from '@entities/lib';
 import { ISelectOption } from '@shared/components';
 import {
-  ElementEnum,
   RarityEnum,
+  StatTypeEnum,
   WeaponTypeEnum,
 } from '@shared/server/constants';
-import { CharacterType } from '@shared/server/interface';
-import { createCharacterSchema } from '@shared/server/schemes';
+import { WeaponType } from '@shared/server/interface';
+import { createWeaponSchema } from '@shared/server/schemes';
 
 interface Props {
-  character: CharacterType;
+  data: WeaponType;
 }
 
-export const useWidget = ({ character }: Props) => {
-  const submit = useUpdateCharacter();
-  const deleteCharacter = useDeleteCharacter();
+export const useWidget = ({ data }: Props) => {
+  const submit = useUpdateWeapon();
+  const deleteCharacter = useDeleteWeapon();
   const { isLoading } = useContext(UserDataContext);
   const { t } = useTranslation('form');
-
-  const elementOptions: Array<ISelectOption> = useMemo(
-    () =>
-      Object.values(ElementEnum).map((value) => {
-        return {
-          value,
-          label: t(`dropdowns.element.${value}`),
-        };
-      }),
-    [t],
-  );
 
   const weaponOptions: Array<ISelectOption> = useMemo(
     () =>
@@ -40,6 +29,16 @@ export const useWidget = ({ character }: Props) => {
         return {
           value,
           label: t(`dropdowns.weapon.${value}`),
+        };
+      }),
+    [t],
+  );
+  const statsTypesOptions: Array<ISelectOption> = useMemo(
+    () =>
+      Object.values(StatTypeEnum).map((value) => {
+        return {
+          value,
+          label: t(`dropdowns.stats.${value}`),
         };
       }),
     [t],
@@ -55,6 +54,10 @@ export const useWidget = ({ character }: Props) => {
         value: RarityEnum.EPIC,
         label: t(`dropdowns.rarity.${RarityEnum.EPIC}`),
       },
+      {
+        value: RarityEnum.COMMON,
+        label: t(`dropdowns.rarity.${RarityEnum.EPIC}`),
+      },
     ];
   }, [t]);
 
@@ -66,12 +69,13 @@ export const useWidget = ({ character }: Props) => {
     setFieldTouched,
     isValid,
     resetForm,
-  } = useAppFormik<CharacterType>({
-    initialValues: character,
+    errors,
+  } = useAppFormik<WeaponType>({
+    initialValues: data,
     onSubmit: (body) => {
       submit({
         data: body,
-        id: character.id,
+        id: data.id,
         onSuccess: () => {
           toast.success(t('updateSuccess'));
         },
@@ -80,24 +84,24 @@ export const useWidget = ({ character }: Props) => {
         },
       });
     },
-    schema: createCharacterSchema,
+    schema: createWeaponSchema,
   });
-
+  console.log(errors);
   const selectedWeapon = useMemo(() => {
-    return weaponOptions.find((el) => el.value === values.weaponType);
-  }, [weaponOptions, values.weaponType]);
-
-  const selectedElement = useMemo(() => {
-    return elementOptions.find((el) => el.value === values.element);
-  }, [elementOptions, values.element]);
+    return weaponOptions.find((el) => el.value === values.type);
+  }, [weaponOptions, values.type]);
 
   const selectedRarity = useMemo(() => {
     return rarityOptions.find((el) => el.value === values.rarity);
   }, [rarityOptions, values.rarity]);
 
+  const selectedStatsType = useMemo(() => {
+    return statsTypesOptions.find((el) => el.value === values.statValue);
+  }, [statsTypesOptions, values.statValue]);
+
   const handleDelete = useCallback(() => {
     deleteCharacter({
-      id: character.id,
+      id: data.id,
       onSuccess: () => {
         toast.success(t('deleteSuccess'));
       },
@@ -105,7 +109,7 @@ export const useWidget = ({ character }: Props) => {
         toast.error(t('deleteError'));
       },
     });
-  }, [character.id, deleteCharacter, t]);
+  }, [data.id, deleteCharacter, t]);
 
   return {
     t,
@@ -118,11 +122,11 @@ export const useWidget = ({ character }: Props) => {
     setFieldValue,
     handleDelete,
     setFieldTouched,
-    elementOptions,
     weaponOptions,
-    selectedElement,
     selectedWeapon,
     rarityOptions,
     selectedRarity,
+    statsTypesOptions,
+    selectedStatsType,
   };
 };
