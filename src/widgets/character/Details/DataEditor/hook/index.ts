@@ -1,7 +1,9 @@
 import { useCallback, useContext } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { useDeleteMyCharacter, useUpdateMyCharacter } from '@features/hooks';
+import { AppRoutes, AppRoutesEnum } from '@entities/constants';
 import { UserDataContext } from '@entities/context';
 import { useAppFormik } from '@entities/lib';
 import { UpdateUserCharacterType } from '@shared/server/interface';
@@ -13,6 +15,7 @@ interface Props {
 }
 
 export const useWidget = ({ userData, id }: Props) => {
+  const navigate = useNavigate();
   const submit = useUpdateMyCharacter();
   const deleteCharacter = useDeleteMyCharacter();
   const { isLoading } = useContext(UserDataContext);
@@ -37,6 +40,7 @@ export const useWidget = ({ userData, id }: Props) => {
         id,
         onSuccess: () => {
           toast.success(t('updateSuccess'));
+          navigate(AppRoutes[AppRoutesEnum.SETTINGS]());
         },
         onError: () => {
           toast.error(t('updateError'));

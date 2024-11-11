@@ -1,16 +1,14 @@
 .wrapper {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
-.info {
+.submit {
   display: flex;
   gap: 24px;
 }
 
-.avatar {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+.remove {
+  margin-left: 32px;
 }

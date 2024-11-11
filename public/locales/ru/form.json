@@ -11,10 +11,55 @@
     "label": "Крит. масса",
     "placeholder": "Укажите текущую крит. массу"
   },
+  "element": {
+    "label": "Элемент",
+    "placeholder": "Укажите элемент"
+  },
+  "weaponType": {
+    "label": "Тип оружия",
+    "placeholder": "Укажите тип оружия"
+  },
+  "characterName": {
+    "label": "Имя персонажа",
+    "placeholder": "Укажите Имя персонажа в файле локализации"
+  },
+  "rarity": {
+    "label": "Редкость",
+    "placeholder": "Укажите редкость персонажа"
+  },
   "save": "Сохранить",
   "delete": "Удалить",
+  "cancel": "Отменить",
   "updateSuccess": "Данные успешно обновлены",
   "updateError": "Не удалось обновить данные",
   "deleteSuccess": "Данные успешно удалены",
-  "deleteError": "Не удалось удалить данные"
+  "deleteError": "Не удалось удалить данные",
+  "userCharacterData": "Данные о вашем персонаже",
+  "characterData": "Данные о персонаже",
+  "userWeaponData": "Данные о вашем оружии",
+  "weaponData": "Данные о оружии",
+  "actionChangeImage": "Изменить изображение",
+  "actionAddToMy": "Добавить в список моих персонажей",
+  "dropdowns": {
+    "element": {
+      "spectro": "Спектро",
+      "havoc": "Хаос",
+      "aero": "Аэро",
+      "glacio": "Глацио",
+      "fusion": "Фьюжин",
+      "electro": "Электро"
+    },
+    "weapon": {
+      "rectifier": "Выпрямитель",
+      "broadBlade": "Двуручный меч",
+      "sword": "Меч",
+      "gauntlets": "Перчатки",
+      "pistols": "Пистолеты"
+    },
+    "rarity": {
+      "legendary": "Легендарный",
+      "epic": "Эпический",
+      "common": "Стандартный"
+    }
+  }
 }

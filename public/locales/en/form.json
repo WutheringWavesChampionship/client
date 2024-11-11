@@ -11,10 +11,55 @@
     "label": "Critical Mass",
     "placeholder": "Specify the current critical mass"
   },
+  "element": {
+    "label": "Element",
+    "placeholder": "Specify the element"
+  },
+  "weaponType": {
+    "label": "Weapon type",
+    "placeholder": "Specify the type of weapon"
+  },
+  "characterName": {
+    "label": "Character Name",
+    "placeholder": "Specify the Character Name in the localization file"
+  },
+  "rarity": {
+    "label": "Rarity",
+    "placeholder": "Specify the rarity of the character"
+  },
   "save": "Save",
   "delete": "Delete",
+  "cancel": "Отменить",
   "updateSuccess": "Data successfully updated",
   "updateError": "Failed to update data",
   "deleteSuccess": "Data successfully deleted",
-  "deleteError": "Failed to delete data"
+  "deleteError": "Failed to delete data",
+  "userCharacterData": "Your character data",
+  "characterData": "Character data",
+  "userWeaponData": "Your weapon data",
+  "weaponData": "Weapons data",
+  "actionChangeImage": "Change the image",
+  "actionAddToMy": "Add to my list of characters",
+  "dropdowns": {
+    "element": {
+      "spectro": "Spectro",
+      "havoc": "Havoc",
+      "aero": "Aero",
+      "glacio": "Glacio",
+      "fusion": "Fusion",
+      "electro": "Electro"
+    },
+    "weapon": {
+      "rectifier": "Rectifier",
+      "broadBlade": "Broad blade",
+      "sword": "Sword",
+      "gauntlets": "Gauntlets",
+      "pistols": "Pistols"
+    },
+    "rarity": {
+      "legendary": "Legendary",
+      "epic": "Epic",
+      "common": "Common"
+    }
+  }
 }

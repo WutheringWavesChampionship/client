@@ -26,6 +26,9 @@ export default ({ className, userData }: Props) => {
       className={classNames(styles.wrapper, className)}
       onSubmit={handleSubmit}
     >
+      <TextContent size={24} fontWeight="semibold">
+        {t('userCharacterData')}
+      </TextContent>
       <div className={styles.constants}>
         <Button
           disabled={values.constants === 0}
@@ -65,7 +68,7 @@ export default ({ className, userData }: Props) => {
           onBlur={() => setFieldTouched('level')}
         />
       </label>
-      <label>
+      {/* <label>
         <TextField
           label={t('critValue.label')}
           placeholder={t('critValue.placeholder')}
@@ -78,7 +81,7 @@ export default ({ className, userData }: Props) => {
             setFieldValue('critValue', newValue);
           }}
         />
-      </label>
+      </label> */}
 
       <div className={styles.actions}>
         <Button
