@@ -31,7 +31,7 @@ export default ({ className, userData }: Props) => {
       </TextContent>
       <div className={styles.constants}>
         <Button
-          disabled={values.constants === 0}
+          disabled={values.constants <= 1}
           onClick={() => {
             setFieldValue('constants', values.constants - 1);
           }}

@@ -30,7 +30,7 @@ export const useWidget = ({ userData, id }: Props) => {
     isValid,
   } = useAppFormik<UpdateUserWeaponType>({
     initialValues: {
-      constants: userData.constants,
+      constants: userData.constants || 1,
       level: userData.level,
     },
     onSubmit: (body) => {
