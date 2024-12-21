@@ -37,21 +37,20 @@ export const Weapon = ({
   name,
 }: Props) => {
   const { t } = useTranslation('stats');
-  const { t: weapons } = useTranslation('weapons');
   return (
     <div
       className={classNames(styles.wrapper, className)}
       style={{ width: size }}
       title={
         baseAttack || (mainStat && statValue)
-          ? `${baseAttack ? `${t('attack')}: ${baseAttack}\n` : ''}${mainStat && statValue ? `${t(mainStat)}: ${statValue}%\n` : ''}${weapons(`${name}.description`)}`
+          ? `${baseAttack ? `${t('attack')}: ${baseAttack}\n` : ''}${mainStat && statValue ? `${t(mainStat)}: ${statValue}%\n` : ''}`
           : undefined
       }
     >
       <div className={classNames(styles.imageWrapper, styles[weaponType])}>
         <img
           src={imagePath}
-          alt={weapons(`${name}.name`)}
+          alt={name}
           className={classNames(styles.image, styles[rarity])}
         />
       </div>
@@ -70,7 +69,7 @@ export const Weapon = ({
         )}
         {!hideName && (
           <TextContent size={16} fontWeight="medium" className={styles.name}>
-            {weapons(`${name}.name`)}
+            {name}
           </TextContent>
         )}
       </div>

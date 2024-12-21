@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import { Button, Divider, Weapon } from '@shared/components';
 import { WeaponType } from '@shared/server/interface';
-import AdminForm from './AdminForm';
+import { WeaponAdminForm } from './AdminForm';
 import DataEditor from './DataEditor';
 import { useWidget } from './hook';
 import styles from './style.module.scss';
@@ -12,8 +12,15 @@ interface Props {
 }
 
 export const WeaponDetails = ({ className, data }: Props) => {
-  const { t, userData, handleAddToMy, isAdmin, getInputProps, open } =
-    useWidget(data);
+  const {
+    t,
+    userData,
+    handleAddToMy,
+    isAdmin,
+    getInputProps,
+    open,
+    updateWeapon,
+  } = useWidget(data);
   return (
     <div className={classNames(styles.wrapper, className)}>
       <input {...getInputProps()} />
@@ -35,7 +42,9 @@ export const WeaponDetails = ({ className, data }: Props) => {
             </Button>
           )}
         </div>
-        {isAdmin && <AdminForm data={data} />}
+        {isAdmin && (
+          <WeaponAdminForm initialValues={data} onSubmit={updateWeapon} />
+        )}
       </div>
       <Divider />
       {!userData && (

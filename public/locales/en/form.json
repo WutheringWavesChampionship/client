@@ -27,9 +27,25 @@
     "label": "Rarity",
     "placeholder": "Specify the rarity of the character"
   },
+  "weaponName": {
+    "label": "Weapon Name",
+    "placeholder": "Specify the name of the weapon"
+  },
+  "statsType": {
+    "label": "Main stat",
+    "placeholder": "Choose the type of bonus"
+  },
+  "statsValue": {
+    "label": "Stats value",
+    "placeholder": "Select the value of the stat"
+  },
+  "baseAttack": {
+    "label": "Basic attack",
+    "placeholder": "Specify the base attack"
+  },
   "save": "Save",
   "delete": "Delete",
-  "cancel": "Отменить",
+  "cancel": "Cancel",
   "updateSuccess": "Data successfully updated",
   "updateError": "Failed to update data",
   "deleteSuccess": "Data successfully deleted",
@@ -60,6 +76,13 @@
       "legendary": "Legendary",
       "epic": "Epic",
       "common": "Common"
+    },
+    "stats": {
+      "critChance": "Crit chance",
+      "critDamage": "Crit damage",
+      "attack": "Attack",
+      "energyRegeneration": "Energy regen",
+      "defense": "Defense"
     }
   }
 }

@@ -41,7 +41,7 @@ export const UserWeapons = ({ className }: Props) => {
         </Link>
       ))}
       {isAdmin && (
-        <Link to={AppRoutes[AppRoutesEnum.CHARACTER_CREATE]()}>
+        <Link to={AppRoutes[AppRoutesEnum.WEAPON_CREATE]()}>
           <Button variant="outline" className={styles.add}>
             <IconPlus />
           </Button>

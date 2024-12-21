@@ -42,6 +42,13 @@
     "characters": "Персонажи",
     "character": "Персонаж",
     "weapons": "Оружие",
-    "weapon": "Оружие"
-  }
+    "weapon": "Оружие",
+    "creation": "Создание"
+  },
+  "createSuccess": "Данные успешно обновлены",
+  "createError": "Не удалось обновить данныеa",
+  "updateSuccess": "Данные успешно обновлены",
+  "updateError": "Не удалось обновить данные",
+  "deleteSuccess": "Данные успешно удалены",
+  "deleteError": "Не удалось удалить данные"
 }

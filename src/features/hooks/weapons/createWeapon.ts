@@ -7,28 +7,18 @@ import { WeaponType, CreateWeaponType } from '@shared/server/interface';
 
 interface Props extends BaseFetchProps<WeaponType> {
   data: CreateWeaponType;
-  id: string | number;
 }
 
-export const useUpdateWeapon = () => {
-  const { setIsLoading, weapons, setWeapons } = useContext(GlobalContext);
+export const useCreateWeapon = () => {
+  const { setIsLoading } = useContext(GlobalContext);
   return useCallback(
-    async ({ onError, onSuccess, onFinally, data, id }: Props) => {
+    async ({ onError, onSuccess, onFinally, data }: Props) => {
       try {
         setIsLoading(true);
-        const res = await axiosApi.patch<WeaponType>(
-          API_ROUTES[API_ROUTES_ENUM.CHARACTERS_CURRENT].replace(
-            ':id',
-            String(id),
-          ),
+        const res = await axiosApi.post<WeaponType>(
+          API_ROUTES[API_ROUTES_ENUM.WEAPONS_LIST],
           data,
         );
-        const newData = [...weapons];
-        const currentIndex = newData.findIndex((el) => el.id === id);
-        newData[currentIndex].name = data.name;
-        newData[currentIndex].rarity = data.rarity;
-        newData[currentIndex].type = data.type;
-        setWeapons(newData);
         // setUser(res.data);
         onSuccess?.(res.data);
       } catch (error) {
@@ -39,6 +29,6 @@ export const useUpdateWeapon = () => {
         onFinally?.();
       }
     },
-    [setIsLoading, setWeapons, weapons],
+    [setIsLoading],
   );
 };

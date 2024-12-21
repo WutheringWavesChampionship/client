@@ -25,7 +25,23 @@
   },
   "rarity": {
     "label": "Редкость",
-    "placeholder": "Укажите редкость персонажа"
+    "placeholder": "Укажите редкость"
+  },
+  "weaponName": {
+    "label": "Название",
+    "placeholder": "Укажите название оружия"
+  },
+  "statsType": {
+    "label": "Основной бонус",
+    "placeholder": "Выберите тип бонуса"
+  },
+  "statsValue": {
+    "label": "Значение бонуса",
+    "placeholder": "Выберите значение бонуса"
+  },
+  "baseAttack": {
+    "label": "Базовая атака",
+    "placeholder": "Укажите базовую атаку"
   },
   "save": "Сохранить",
   "delete": "Удалить",
@@ -60,6 +76,13 @@
       "legendary": "Легендарный",
       "epic": "Эпический",
       "common": "Стандартный"
+    },
+    "stats": {
+      "critChance": "Крит. шанс",
+      "critDamage": "Крит. урон",
+      "attack": "Атака",
+      "energyRegeneration": "Восстановление энергии",
+      "defense": "Защита"
     }
   }
 }

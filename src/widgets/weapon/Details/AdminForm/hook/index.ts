@@ -1,7 +1,8 @@
 import { useCallback, useContext, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { useDeleteWeapon, useUpdateWeapon } from '@features/hooks';
+import { useDeleteWeapon } from '@features/hooks';
 import { UserDataContext } from '@entities/context';
 import { useAppFormik } from '@entities/lib';
 import { ISelectOption } from '@shared/components';
@@ -10,16 +11,20 @@ import {
   StatTypeEnum,
   WeaponTypeEnum,
 } from '@shared/server/constants';
-import { WeaponType } from '@shared/server/interface';
+import { CreateWeaponType, WeaponType } from '@shared/server/interface';
 import { createWeaponSchema } from '@shared/server/schemes';
 
 interface Props {
-  data: WeaponType;
+  initialValues?: WeaponType;
+  onSubmit: (data: CreateWeaponType) => void;
 }
 
-export const useWidget = ({ data }: Props) => {
-  const submit = useUpdateWeapon();
-  const deleteCharacter = useDeleteWeapon();
+export const useWidget = ({
+  initialValues = {} as WeaponType,
+  onSubmit,
+}: Props) => {
+  const navigate = useNavigate();
+  const deleteWeapon = useDeleteWeapon();
   const { isLoading } = useContext(UserDataContext);
   const { t } = useTranslation('form');
 
@@ -69,24 +74,12 @@ export const useWidget = ({ data }: Props) => {
     setFieldTouched,
     isValid,
     resetForm,
-    errors,
   } = useAppFormik<WeaponType>({
-    initialValues: data,
-    onSubmit: (body) => {
-      submit({
-        data: body,
-        id: data.id,
-        onSuccess: () => {
-          toast.success(t('updateSuccess'));
-        },
-        onError: () => {
-          toast.error(t('updateError'));
-        },
-      });
-    },
+    initialValues: initialValues,
+    onSubmit,
+
     schema: createWeaponSchema,
   });
-  console.log(errors);
   const selectedWeapon = useMemo(() => {
     return weaponOptions.find((el) => el.value === values.type);
   }, [weaponOptions, values.type]);
@@ -96,20 +89,21 @@ export const useWidget = ({ data }: Props) => {
   }, [rarityOptions, values.rarity]);
 
   const selectedStatsType = useMemo(() => {
-    return statsTypesOptions.find((el) => el.value === values.statValue);
-  }, [statsTypesOptions, values.statValue]);
+    return statsTypesOptions.find((el) => el.value === values.mainStat);
+  }, [statsTypesOptions, values.mainStat]);
 
   const handleDelete = useCallback(() => {
-    deleteCharacter({
-      id: data.id,
+    deleteWeapon({
+      id: initialValues.id,
       onSuccess: () => {
         toast.success(t('deleteSuccess'));
+        navigate(-1);
       },
       onError: () => {
         toast.error(t('deleteError'));
       },
     });
-  }, [data.id, deleteCharacter, t]);
+  }, [deleteWeapon, initialValues.id, t, navigate]);
 
   return {
     t,

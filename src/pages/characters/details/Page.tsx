@@ -19,7 +19,7 @@ export default memo(() => {
             href: AppRoutes[AppRoutesEnum.SETTINGS](),
           },
           {
-            title: t('routes.character'),
+            title: data?.name || t('routes.character'),
           },
         ]}
       />

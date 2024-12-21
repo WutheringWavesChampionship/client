@@ -15,11 +15,11 @@ export default memo(() => {
         breadcrumbs={[
           { title: t('routes.main'), href: AppRoutes[AppRoutesEnum.MAIN]() },
           {
-            title: t('routes.settings'),
+            title: t('routes.weapons'),
             href: AppRoutes[AppRoutesEnum.SETTINGS](),
           },
           {
-            title: t('routes.weapon'),
+            title: data?.name || t('routes.create'),
           },
         ]}
       />

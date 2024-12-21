@@ -2,13 +2,18 @@ import { useCallback, useContext, useMemo } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
-import { useAddToMyWeapons, useUpdateWeaponImage } from '@features/hooks';
+import {
+  useAddToMyWeapons,
+  useUpdateWeapon,
+  useUpdateWeaponImage,
+} from '@features/hooks';
 import { UserDataContext } from '@entities/context';
 import { IMAGE_TYPES, MAX_IMAGE_SIZE } from '@shared/server/constants';
-import { WeaponType } from '@shared/server/interface';
+import { CreateWeaponType, WeaponType } from '@shared/server/interface';
 
 export const useWidget = (character: WeaponType) => {
   const { t } = useTranslation('form');
+  const submit = useUpdateWeapon();
   const { weapons, setWeapons, isAdmin } = useContext(UserDataContext);
   const addToMy = useAddToMyWeapons();
   const upload = useUpdateWeaponImage();
@@ -55,5 +60,29 @@ export const useWidget = (character: WeaponType) => {
     });
   }, [addToMy, character, setWeapons, weapons]);
 
-  return { userData, t, handleAddToMy, isAdmin, getInputProps, open };
+  const updateWeapon = useCallback(
+    (data: CreateWeaponType) => {
+      submit({
+        data,
+        id: character.id,
+        onSuccess: () => {
+          toast.success(t('updateSuccess'));
+        },
+        onError: () => {
+          toast.error(t('updateError'));
+        },
+      });
+    },
+    [character.id, submit, t],
+  );
+
+  return {
+    userData,
+    t,
+    handleAddToMy,
+    isAdmin,
+    getInputProps,
+    open,
+    updateWeapon,
+  };
 };

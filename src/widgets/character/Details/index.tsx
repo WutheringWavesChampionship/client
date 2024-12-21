@@ -2,7 +2,7 @@ import classNames from 'classnames';
 import { Button, Divider } from '@shared/components';
 import { Character } from '@shared/components/Character';
 import { CharacterType } from '@shared/server/interface';
-import AdminForm from './AdminForm';
+import { CharacterAdminForm } from './AdminForm';
 import DataEditor from './DataEditor';
 import { useWidget } from './hook';
 import styles from './style.module.scss';
@@ -13,8 +13,15 @@ interface Props {
 }
 
 export const CharacterDetails = ({ className, data }: Props) => {
-  const { t, userData, handleAddToMy, isAdmin, getInputProps, open } =
-    useWidget(data);
+  const {
+    t,
+    userData,
+    handleAddToMy,
+    isAdmin,
+    getInputProps,
+    open,
+    updateCharacter,
+  } = useWidget(data);
   return (
     <div className={classNames(styles.wrapper, className)}>
       <input {...getInputProps()} />
@@ -34,7 +41,9 @@ export const CharacterDetails = ({ className, data }: Props) => {
             </Button>
           )}
         </div>
-        {isAdmin && <AdminForm character={data} />}
+        {isAdmin && (
+          <CharacterAdminForm initialValues={data} onSubmit={updateCharacter} />
+        )}
       </div>
       <Divider />
       {!userData && (

@@ -24,7 +24,9 @@ export const useUpdateCharacter = () => {
           data,
         );
         const newCharacters = [...characters];
-        const currentIndex = newCharacters.findIndex((el) => el.id === id);
+        const currentIndex = newCharacters.findIndex(
+          (el) => Number(el.id) === Number(id),
+        );
         newCharacters[currentIndex].element = data.element;
         newCharacters[currentIndex].name = data.name;
         newCharacters[currentIndex].rarity = data.rarity;

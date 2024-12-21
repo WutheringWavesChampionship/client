@@ -5,16 +5,21 @@ import {
   TextContent,
   TextField,
 } from '@shared/components';
-import { CharacterType } from '@shared/server/interface';
+import { CharacterType, CreateCharacterType } from '@shared/server/interface';
 import { useWidget } from './hook';
 import styles from './style.module.scss';
 
 interface Props {
   className?: string;
-  character: CharacterType;
+  initialValues?: CharacterType;
+  onSubmit: (data: CreateCharacterType) => Promise<void> | void;
 }
 
-export default ({ className, character }: Props) => {
+export const CharacterAdminForm = ({
+  className,
+  initialValues,
+  onSubmit,
+}: Props) => {
   const {
     handleSubmit,
     setFieldTouched,
@@ -32,7 +37,7 @@ export default ({ className, character }: Props) => {
     rarityOptions,
     selectedRarity,
     resetForm,
-  } = useWidget({ character });
+  } = useWidget({ initialValues: initialValues, onSubmit });
   return (
     <form
       className={classNames(styles.wrapper, className)}
@@ -47,9 +52,7 @@ export default ({ className, character }: Props) => {
         value={values.name}
         error={touchedErrors.name}
         onBlur={() => setFieldTouched('name')}
-        onChange={(ev) =>
-          setFieldValue('name', ev.target.value.toLowerCase().trim())
-        }
+        onChange={(ev) => setFieldValue('name', ev.target.value)}
       />
       <StyledSelect
         error={touchedErrors.element}
@@ -96,14 +99,16 @@ export default ({ className, character }: Props) => {
         >
           {t('cancel')}
         </Button>
-        <Button
-          type="button"
-          variant="danger"
-          onClick={handleDelete}
-          loading={isLoading}
-        >
-          {t('delete')}
-        </Button>
+        {initialValues && (
+          <Button
+            type="button"
+            variant="danger"
+            onClick={handleDelete}
+            loading={isLoading}
+          >
+            {t('delete')}
+          </Button>
+        )}
       </div>
     </form>
   );

@@ -1,7 +1,7 @@
 import { useCallback, useContext, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
-import { useDeleteCharacter, useUpdateCharacter } from '@features/hooks';
+import { useDeleteCharacter } from '@features/hooks';
 import { UserDataContext } from '@entities/context';
 import { useAppFormik } from '@entities/lib';
 import { ISelectOption } from '@shared/components';
@@ -10,15 +10,18 @@ import {
   RarityEnum,
   WeaponTypeEnum,
 } from '@shared/server/constants';
-import { CharacterType } from '@shared/server/interface';
+import { CharacterType, CreateCharacterType } from '@shared/server/interface';
 import { createCharacterSchema } from '@shared/server/schemes';
 
 interface Props {
-  character: CharacterType;
+  initialValues?: CharacterType;
+  onSubmit: (data: CreateCharacterType) => Promise<void> | void;
 }
 
-export const useWidget = ({ character }: Props) => {
-  const submit = useUpdateCharacter();
+export const useWidget = ({
+  initialValues = {} as CharacterType,
+  onSubmit,
+}: Props) => {
   const deleteCharacter = useDeleteCharacter();
   const { isLoading } = useContext(UserDataContext);
   const { t } = useTranslation('form');
@@ -67,19 +70,20 @@ export const useWidget = ({ character }: Props) => {
     isValid,
     resetForm,
   } = useAppFormik<CharacterType>({
-    initialValues: character,
-    onSubmit: (body) => {
-      submit({
-        data: body,
-        id: character.id,
-        onSuccess: () => {
-          toast.success(t('updateSuccess'));
-        },
-        onError: () => {
-          toast.error(t('updateError'));
-        },
-      });
-    },
+    initialValues: initialValues,
+    onSubmit,
+    // onSubmit: (body) => {
+    //   submit({
+    //     data: body,
+    //     id: character.id,
+    //     onSuccess: () => {
+    //       toast.success(t('updateSuccess'));
+    //     },
+    //     onError: () => {
+    //       toast.error(t('updateError'));
+    //     },
+    //   });
+    // },
     schema: createCharacterSchema,
   });
 
@@ -97,7 +101,7 @@ export const useWidget = ({ character }: Props) => {
 
   const handleDelete = useCallback(() => {
     deleteCharacter({
-      id: character.id,
+      id: initialValues.id,
       onSuccess: () => {
         toast.success(t('deleteSuccess'));
       },
@@ -105,7 +109,7 @@ export const useWidget = ({ character }: Props) => {
         toast.error(t('deleteError'));
       },
     });
-  }, [character.id, deleteCharacter, t]);
+  }, [initialValues.id, deleteCharacter, t]);
 
   return {
     t,

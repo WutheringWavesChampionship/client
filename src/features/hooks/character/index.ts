@@ -6,3 +6,4 @@ export * from './deleteMyCharacter';
 export * from './deleteCharacter';
 export * from './updateCharacter';
 export * from './updateCharacterImage';
+export * from './createCharacter';

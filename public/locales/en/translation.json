@@ -42,6 +42,13 @@
     "characters": "Characters",
     "character": "Character",
     "weapons": "Weapons",
-    "weapon": "Weapon"
-  }
+    "weapon": "Weapon",
+    "creation": "Creation"
+  },
+  "createSuccess": "Data successfully created",
+  "createError": "Failed to create data",
+  "updateSuccess": "Data successfully updated",
+  "updateError": "Failed to update data",
+  "deleteSuccess": "Data successfully deleted",
+  "deleteError": "Failed to delete data"
 }

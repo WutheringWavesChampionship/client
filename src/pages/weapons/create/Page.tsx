@@ -1,24 +1,27 @@
-import { useTranslation } from 'react-i18next';
 import { PageHeader } from '@widgets/PageHeader';
+import { WeaponAdminForm } from '@widgets/weapon/Details/AdminForm';
 import { AppRoutes, AppRoutesEnum } from '@entities/constants';
 import { PageSkeleton, Paper } from '@shared/components';
+import { usePage } from './hook';
 import styles from './style.module.scss';
 
 export default () => {
-  const { t } = useTranslation();
+  const { t, handleCreate } = usePage();
   return (
     <PageSkeleton className={styles.wrapper}>
       <PageHeader
         breadcrumbs={[
           { title: t('routes.main'), href: AppRoutes[AppRoutesEnum.MAIN]() },
           {
-            title: t('routes.settings'),
+            title: t('routes.weapons'),
             href: AppRoutes[AppRoutesEnum.SETTINGS](),
           },
-          { title: t('routes.settings') },
+          { title: t('routes.creation') },
         ]}
       />
-      <Paper className={styles.card}>{'create'}</Paper>
+      <Paper className={styles.card}>
+        <WeaponAdminForm onSubmit={handleCreate} />
+      </Paper>
     </PageSkeleton>
   );
 };

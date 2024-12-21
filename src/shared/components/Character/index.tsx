@@ -1,5 +1,4 @@
 import classNames from 'classnames';
-import { useTranslation } from 'react-i18next';
 import { ElementEnum, RarityEnum } from '../../server/constants';
 import { UserCharacterType } from '../../server/interface';
 import { TextContent } from '../TextContent';
@@ -26,7 +25,6 @@ export const Character = ({
   rarity,
   hideName = false,
 }: Props) => {
-  const { t } = useTranslation('characters');
   return (
     <div
       className={classNames(styles.wrapper, className)}
@@ -54,7 +52,7 @@ export const Character = ({
         )}
         {!hideName && (
           <TextContent size={16} fontWeight="medium" className={styles.name}>
-            {t(name)}
+            {name}
           </TextContent>
         )}
       </div>

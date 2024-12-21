@@ -2,16 +2,21 @@ import { useCallback, useContext, useMemo } from 'react';
 import { useDropzone } from 'react-dropzone';
 import { useTranslation } from 'react-i18next';
 import { toast } from 'react-toastify';
-import { useAddToMyCharacters, useUpdateCharacterImage } from '@features/hooks';
+import {
+  useAddToMyCharacters,
+  useUpdateCharacter,
+  useUpdateCharacterImage,
+} from '@features/hooks';
 import { UserDataContext } from '@entities/context';
 import { IMAGE_TYPES, MAX_IMAGE_SIZE } from '@shared/server/constants';
-import { CharacterType } from '@shared/server/interface';
+import { CharacterType, CreateCharacterType } from '@shared/server/interface';
 
 export const useWidget = (character: CharacterType) => {
   const { t } = useTranslation('form');
   const { characters, setCharacters, isAdmin } = useContext(UserDataContext);
   const addToMy = useAddToMyCharacters();
   const upload = useUpdateCharacterImage();
+  const submit = useUpdateCharacter();
 
   const onDrop = useCallback(
     (files: File[]) => {
@@ -55,5 +60,29 @@ export const useWidget = (character: CharacterType) => {
     });
   }, [addToMy, character, characters, setCharacters]);
 
-  return { userData, t, handleAddToMy, isAdmin, getInputProps, open };
+  const updateCharacter = useCallback(
+    (data: CreateCharacterType) => {
+      submit({
+        data,
+        id: character.id,
+        onSuccess: () => {
+          toast.success(t('updateSuccess'));
+        },
+        onError: () => {
+          toast.error(t('updateError'));
+        },
+      });
+    },
+    [character.id, submit, t],
+  );
+
+  return {
+    userData,
+    t,
+    handleAddToMy,
+    isAdmin,
+    getInputProps,
+    open,
+    updateCharacter,
+  };
 };

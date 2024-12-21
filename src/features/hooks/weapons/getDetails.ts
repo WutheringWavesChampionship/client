@@ -14,7 +14,8 @@ export const useGetWeaponDetails = () => {
       const { data } = await axiosApi.get<WeaponType>(
         API_ROUTES[API_ROUTES_ENUM.WEAPONS_CURRENT].replace(':id', String(id)),
       );
-      onSuccess?.(data);
+      const { statValue } = data;
+      onSuccess?.({ ...data, statValue: Number(statValue) });
     } catch (error) {
       onError?.(error);
       console.error(error);
